@@ -85,7 +85,7 @@ a.button:active {
  */ 
 
 header {
-	background: #000 url(../img/stripes.jpg) center top fixed no-repeat;
+	background: #000 url(../img/stripes.jpg) center top no-repeat;
 	-webkit-transition: 1s height ease-out;
 	color: #fff;
 	overflow: hidden;
