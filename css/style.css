@@ -3,11 +3,13 @@
 
 /* go crazy */
 
+
 body {
 	font-family: 'ff-meta-web-pro', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
 	font-size: 1em; /*16px*/
 	color: #333;
 	line-height: 1.35em;
+	background: #fff url(../img/shattered.png) top left repeat;
 }
 h1, h2, h3, h4, h5, h6 , header nav a, .datetime, .button {
 	font-family: 'proxima-nova-sc-osf-ext-cond', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
@@ -21,23 +23,30 @@ h1, h2, h3, h4, h5, h6 {
 
 .wrapper {
 	width: 90%;
-	margin: 0 auto;
+	margin: 0;
+	padding: 2em 5% 2em;
 	max-width: 1000px;
 	min-width: 280px;
 }
 
 section {
-	margin-bottom: 3em;	
+	padding-bottom: 3em;	
 }
+
 
 .section-title {
 	font-family: 'proxima-nova-sc-osf-ext-cond', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
 	font-size: 2.66666666666667em;
 	clear: both;
-	padding-right: 1.5em;
 	text-transform: uppercase;
 	font-weight: 600;
-	margin-bottom: .125em;
+	margin-bottom: .5em;
+	text-shadow: 3px 3px 0 #e9dfc9;
+	text-align: center;
+}
+
+.jobs .section-title {
+	text-shadow: 3px 3px 0 white;
 }
 
  a:link,
@@ -66,7 +75,7 @@ a.button {
 .button:active, 
 a.button:hover,
 a.button:active {
-	background: #ffc237;
+	background: #e09c00;
 	color: #000;
 } 
 
@@ -119,6 +128,11 @@ header a:active {
 	border-radius: 5px;
 }
 
+header .logo {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
 header nav {
 	margin-bottom: 1.5em;
 }
@@ -148,9 +162,13 @@ header .wrapper.slight {
 	-webkit-transition: opacity .5s ease-in-out;
 }
 
+article > section {
+	background-color: white;
+} 
+
 article {
-	max-width: 1100px;
-	background: #fff;
+	max-width: 1000px;
+	background: transparent;
 	overflow: hidden;
 	margin: -20em auto 0;
 	position: relative;
@@ -211,6 +229,34 @@ article.show-art {
 	text-decoration: none;
 	font-size: 1.25em;
 }
+
+/*
+ * Tagline
+ */
+ 
+ .tagline {
+	 background: rgba(0,0,0,0.5);
+	 margin-bottom: 0;
+	 padding-bottom: 2em;
+ }
+ 
+.tagline h2 {
+	font-family: 'ff-meta-web-pro', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
+	text-transform: none;
+	font-weight: 400;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 0;
+	line-height: 1.4em;
+	color: #fff;
+	
+}
+ 
+ .tagline i {
+	font-style: normal;
+	
+ }
+ 
 
 /*
  * Transitions stuff
@@ -292,7 +338,7 @@ article.show-art {
  
   .listings h3 a:active, 
   .listings h3 a:hover {
-	  color: #ffc237;
+	  color: #e09c00;
   }
  
  .listings .datetime {
@@ -340,18 +386,15 @@ article.show-art {
  * Jobs styles
  */ 
 
+.jobs {
+	background: #e8f1f2;
+}
+
 .job span.company, .job span.location {
 	display: block;
 }
- 
-li.job-type {
-	background-color: #f4f4f4;
-	padding: 1em 1.8%;
-}
 
- .jobs .fourcol .col {
- 	width: 44.6%;
- }
+
 
 .jobs-logo {
 	display: block;
@@ -382,7 +425,7 @@ li.job-type {
 /* Members */
 
 .members {
-	margin-bottom: 2em;
+	padding-bottom: 4em;
 }
 
 .priority-member {
@@ -434,7 +477,6 @@ li.job-type {
 	text-align: center;
 	border-bottom: 1px solid #e9e9e9;
 	height: 0.5em;
-	margin-bottom: 2em;
 }
 
 .more-link a:before {
@@ -472,10 +514,14 @@ li.job-type {
  */ 
  
 footer {
-	 background: #55868d;
+	 background: #005b68 url(../img/shattered-trans.png) top left repeat;
 	 color: #fff;
 	 padding: 2em 0;
-	 margin-top: 2em;
+}
+
+footer > div {
+		margin: 0 auto;
+	max-width: 900px;
 }
 
 footer a:link,

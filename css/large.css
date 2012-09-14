@@ -44,12 +44,3 @@ header a {
  .fourcol .col:last-child {
 	 margin-right: 0; /* TODO: IE will break */
  }
-
- .jobs .fourcol .col {
- 	width: 18.7%;
- }
-
-.jobs-logo {
-	width: 33%;
-	left: 58.8%;
-}
