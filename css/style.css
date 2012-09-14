@@ -11,7 +11,7 @@ body {
 	line-height: 1.35em;
 	background: #fff url(../img/shattered.png) top left repeat;
 }
-h1, h2, h3, h4, h5, h6 , header nav a, .datetime, .button {
+h1, h2, h3, h4, h5, h6 , header nav a, .datetime, .closing, .button {
 	font-family: 'proxima-nova-sc-osf-ext-cond', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
 	text-transform: uppercase;
 }
@@ -36,17 +36,23 @@ section {
 
 .section-title {
 	font-family: 'proxima-nova-sc-osf-ext-cond', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
-	font-size: 2.66666666666667em;
+	font-size: 3.7em;
 	clear: both;
 	text-transform: uppercase;
 	font-weight: 600;
-	margin-bottom: .5em;
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
 	text-shadow: 3px 3px 0 #e9dfc9;
 	text-align: center;
 }
 
 .jobs .section-title {
 	text-shadow: 3px 3px 0 white;
+}
+
+.closing {
+	font-weight: 100;
+	font-size: 1.444444444em;
 }
 
  a:link,
@@ -94,7 +100,7 @@ a.button:active {
  */ 
 
 header {
-	background: #000 url(../img/stripes.jpg) center top no-repeat;
+	background: #000 url(../img/house.png) center top no-repeat;
 	-webkit-transition: 1s height ease-out;
 	color: #fff;
 	overflow: hidden;
@@ -125,7 +131,6 @@ header a:visited {
 header a:hover,
 header a:active {
 	background: rgba(0,0,0, 0.75);
-	border-radius: 5px;
 }
 
 header .logo {
@@ -341,18 +346,17 @@ article.show-art {
 	  color: #e09c00;
   }
  
- .listings .datetime {
+ .listings .datetime, 
+ .closing {
  	font-weight: 100;
  	text-transform: none;
  	font-size: 1.444444444em; 
  	padding-bottom: 0.384615385em; 
  }
 
-
-
 /*
  * Events styles
- */ 
+ */ ]
  
  .social {
 	 width: 100%;
@@ -387,7 +391,7 @@ article.show-art {
  */ 
 
 .jobs {
-	background: #e8f1f2;
+	background: #e8f1f2 url(../img/retina_dust.png) top left repeat
 }
 
 .job span.company, .job span.location {
@@ -419,7 +423,8 @@ article.show-art {
 }
 
 .closingdate {
-	margin-bottom: 1em;
+
+	margin-bottom: 2em;
 }
 
 /* Members */
@@ -471,6 +476,7 @@ article.show-art {
 
 
 /* More link */
+
 .more-link {
 	width: 100%;
 	clear: 	both;
@@ -485,6 +491,11 @@ article.show-art {
 	padding-bottom: 0.25em;
 	color: #ddd;
 	padding-right: .75em;
+}
+
+.jobs .more-link a:link,
+.jobs .more-link a:visited {
+	background: #e8f1f2 url(../img/retina_dust.png) top left repeat
 }
 
 .more-link a:link,
