@@ -433,26 +433,15 @@ article.show-art {
 	padding-bottom: 4em;
 }
 
-.priority-member {
-	overflow: hidden;
-	position: relative;
-	height: 3.611111111em;
-	margin-bottom: 1em;
-}
-
 .priority-member a{
-	width: 46.313364055%;
 	background: transparent url(../img/torchbox-pink.png) top left no-repeat;
-	height: 3em;
-	display: block;
 	position: absolute;
 	text-indent: -9999%;
 	top: 0;
 }
 
 .priority-member a.white-october {
-	background-image: url(http://www.whiteoctober.co.uk/images/logo.png);
-	
+	background: transparent url(../img/whiteoctober-blue.png) top left no-repeat;
 }
 
 .priority-member a.col1 {
@@ -464,6 +453,10 @@ article.show-art {
 }
 
 .other-members {
+	overflow: hidden;
+	position: relative;
+	height: 3.611111111em;
+	margin-bottom: 1em;
 	padding-bottom: 2em;	
 }
 .other-members a {
@@ -531,7 +524,7 @@ footer {
 }
 
 footer > div {
-		margin: 0 auto;
+	margin: 0 auto;
 	max-width: 900px;
 }
 
@@ -539,6 +532,11 @@ footer a:link,
 footer a:visited {
 	color: rgba(255,255,255,0.8);
 }
+
+footer h3 {
+	color: white;
+}
+
 .tweets {
 	font-size:  0.88888888888889em;
 	margin-bottom: 1em;
@@ -570,10 +568,18 @@ footer a:visited {
 }
 
 .big-tweet {
-	font-size: 2em;
-	font-weight: bold;
+	font-size: 1.3em;
 	line-height: 1.3em;
-	opacity: 0.6;
+}
+
+.big-tweet a:link,
+.big-tweet a:visited {
+	color: #fff;
+}
+
+.big-tweet a:hover,
+.big-tweet a:active {
+	color: #000;
 }
 
 .social-links li {
