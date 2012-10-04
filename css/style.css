@@ -55,6 +55,26 @@ section {
 	font-size: 1.444444444em;
 }
 
+.button {
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+	padding: 0.33em 0.5em;
+	display: inline-block;
+}
+
+.shadow {
+		box-shadow: 3px 3px 0 #E9DFC9;
+}
+
+.button.shadow:hover, 
+.button.shadow:active {
+	background: #e09c00;
+	color: #000;
+	box-shadow: 3px 3px 0 #E9DFC9;
+} 
+
+
  a:link,
  a:visited {
 	color: #7CA6AC;
@@ -65,26 +85,7 @@ section {
  a:active {
 	color: #000;
 	text-decoration: underline;
-}
-
-
-.button, 
-a.button {
-	background: #333;
-	color: #fff;
-	text-decoration: none;
-	padding: 0.33em 0.5em;
-	display: inline-block;
-}
-
-.button:hover, 
-.button:active, 
-a.button:hover,
-a.button:active {
-	background: #e09c00;
-	color: #000;
 } 
-
  .fourcol .col {
 	 margin-right: 3.6%;
 	 width: 48.2%;
@@ -433,24 +434,7 @@ article.show-art {
 	padding-bottom: 4em;
 }
 
-.priority-member a{
-	background: transparent url(../img/torchbox-pink.png) top left no-repeat;
-	position: absolute;
-	text-indent: -9999%;
-	top: 0;
-}
 
-.priority-member a.white-october {
-	background: transparent url(../img/whiteoctober-blue.png) top left no-repeat;
-}
-
-.priority-member a.col1 {
-	right: 0;
-}
-
-.priority-member a.col2{
-	left: 0;
-}
 
 .other-members {
 	overflow: hidden;
@@ -459,12 +443,15 @@ article.show-art {
 	margin-bottom: 1em;
 	padding-bottom: 2em;	
 }
+
 .other-members a {
 	opacity: 0.6;
 }
 
 .other-members a:hover {
 	opacity: 1;
+	background: transparent url(../img/whiteoctober-blue.png) top left no-repeat;
+	display: inherit;
 }
 
 
@@ -476,6 +463,7 @@ article.show-art {
 	text-align: center;
 	border-bottom: 1px solid #e9e9e9;
 	height: 0.5em;
+
 }
 
 .more-link a:before {
@@ -485,6 +473,9 @@ article.show-art {
 	color: #ddd;
 	padding-right: .75em;
 }
+
+
+
 
 .jobs .more-link a:link,
 .jobs .more-link a:visited {
@@ -623,3 +614,10 @@ footer h3 {
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
+
+
+
+
+
+
+
