@@ -19,11 +19,15 @@ header a {
 /*
  * Events
  */
- 
+
  .fourcol .col:nth-child(even),
  .col {
  	margin-right: 3.6%;
  	float: left;
+ }
+
+ .col.big-tweet {
+    margin-left:3.6%;
  }
 
  .twocol .col {
@@ -34,13 +38,24 @@ header a {
  .threecol .col {
 	 width: 30.933333333%;
  }
- 
+
 .fourcol .col {
 	 width: 22.3%;
  }
 
  .twocol .col:last-child,
- .threecol .col:last-child, 
+ .threecol .col:last-child,
  .fourcol .col:last-child {
 	 margin-right: 0; /* TODO: IE will break */
  }
+
+/*
+* Members
+*/
+/*
+.other-members a:hover img{
+    opacity: 1;
+    display: inherit;
+    margin-top:-67px;
+}*/
+

@@ -67,9 +67,9 @@
 			<h1>Digital Oxfordshire</h1>
 			<nav>
 				<ul>
-					<li><a href="#">Jobs</a></li>
-					<li><a href="#">Events</a></li>
-					<li class="last"><a href="#">Members</a></li>
+					<li><a href="#jobs">Jobs</a></li>
+					<li><a href="#events">Events</a></li>
+					<li class="last"><a href="#members">Members</a></li>
 				</ul>
 
 			</nav>
@@ -109,7 +109,7 @@
     		<h2>Digital Oxford connects creative <i>design</i> &amp; <i>technology</i> in the <i>Oxfordshire</i> area. We sponsor <i>events</i> and advertise <i>jobs</i> for anybody interested in the <i>web</i>.</h2>
     	</section>
 
-        <section class="events listings wrapper">
+        <section class="events listings wrapper" id="events">
 			<h2 class="section-title">Events</h2>
 			<ol class="threecol">
 				<li class="event-type col">
@@ -174,7 +174,7 @@
 			</div>
 		</section>
 
-		<section class="jobs listings wrapper">
+		<section class="jobs listings wrapper" id="jobs">
 			<h2 class="section-title">Jobs</h2>
 				<ol class="fourcol">
 					<li class="job-type col">
@@ -251,11 +251,11 @@
 				</div>
 
 		</section>
-        <section class="members wrapper clearfix">
+        <section class="members wrapper clearfix" id="members">
         	<h2 class="section-title">Members</h2>
         		<div class="other-members fourcol clearfix">
-        			<a class="col" href="http://www.torchbox.com"><img src="img/torchbox-pink.png" alt="torchbox-pink"></a>
-        			<a class="col" href="http://www.whiteoctober.co.uk"><img src="img/whiteoctober-grey.png"></a>
+        			<a class="col" href="http://www.torchbox.com"><img src="img/torchbox-sprite.png" alt="torchbox"></a>
+        			<a class="col" href="http://www.whiteoctober.co.uk"><img src="img/whiteoctober-sprite.png" alt="White October"></a>
         			<a class="member col" href="www.digitaloxon.com"><img alt="Digital Oxon" src="img/torchbox-grey.png"></a>
         			<a class="member col" href="www.digitaloxon.com"><img alt="Digital Oxon" src="img/torchbox-grey.png"></a>
         		</div>
@@ -273,13 +273,15 @@
     		</h3>
     		<div class="tweets fourcol clearfix">
     			<ul>
-    				<li class="col">Someone pointed out this morning that @torchbox might be the only office in Oxfordshire that uses twice-ground coffee.<a href="#">17 June 2013</a></li>
-    				<li class="col">nterested in consultations and open policymaking? Help us make things better. New discussion space hosted by @demsoc - http://openpolicy.demsoc.org/ <a href="#">17 June 2013</a></li>
-    				<li class="col">"From Oct 17th, GOV.UK will replace Directgov as the best place to find government services and information."<a href="#">17 June 2013</a></li>
-    				<li class="col big-tweet"><p>Follow <a href="www.twitter.com">@digitaloxford</a> on twitter</p></li>
+                    <div id="tweet-panel">
+        				<li class="col">Someone pointed out this morning that @torchbox might be the only office in Oxfordshire that uses twice-ground coffee.<a href="#">17 June 2013</a></li>
+        				<li class="col">nterested in consultations and open policymaking? Help us make things better. New discussion space hosted by @demsoc - http://openpolicy.demsoc.org/ <a href="#">17 June 2013</a></li>
+        				<li class="col">"From Oct 17th, GOV.UK will replace Directgov as the best place to find government services and information."<a href="#">17 June 2013</a></li>
+                    </div>
+    				<li class="col big-tweet"><p>Follow <a href="www.twitter.com">@digital_oxford</a> on twitter</p></li>
     			</ul>
-
     		</div>
+
     		<div class="footer-info clearfix">
 	    		<div class="social-links">
 	    			<ul>
@@ -294,5 +296,8 @@
     		</div>
     	</div>
     </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

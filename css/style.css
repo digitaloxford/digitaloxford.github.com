@@ -91,6 +91,7 @@ a:link.button  {
 	 margin-right: 3.6%;
 	 width: 48.2%;
 	 float: left;
+	 margin-bottom:2%;
  }
 
 .fourcol .col:nth-child(even) {
@@ -102,7 +103,7 @@ a:link.button  {
  */
 
 header {
-	background: #000 url(../img/house.png) center top no-repeat;
+	background: #000 url(../img/stripes.jpg) center top no-repeat;
 	-webkit-transition: 1s height ease-out;
 	color: #fff;
 	overflow: hidden;
@@ -388,7 +389,7 @@ article.show-art {
   }
 
 
-  /*
+ /*
  * Jobs styles
  */
 
@@ -444,15 +445,21 @@ article.show-art {
 }
 
 .other-members a {
+	height:50px;
 	opacity: 0.6;
+	overflow: hidden;
 }
 
-/* .other-members a:hover {
+.other-members a:hover img{
 	opacity: 1;
-	background: transparent url(../img/whiteoctober-blue.png) top left no-repeat;
 	display: inherit;
-} */
+	margin-top:-33%;
+}
 
+.other-members img {
+	width:100%;
+	max-width:200px;
+}
 
 /* More link */
 
@@ -478,6 +485,7 @@ article.show-art {
 .more-link a:visited {
 	background: #C6D4D5;
 	color:#333;
+	margin-top:-10px;
 }
 
 .more-link a:hover.button,
