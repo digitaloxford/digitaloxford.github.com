@@ -11,8 +11,7 @@ layout: layout
 
             <ol class="threecol">
               <!-- If type = event.. -->
-              {% for post in site.posts %}
-                {% if post.category contains 'event' %}
+              {% for post in site.categories.event limit:3 %}
                   <li class="event-type col">
                     <div class="event">
                         <div class="datetime">
@@ -29,8 +28,28 @@ layout: layout
                         </div>
                         <p>{{ post.detail }} <a href=" {{ post.link }}">More information&hellip;</a></p>
                   </li> <!-- /event -->
-                  {% endif %}
               {% endfor %}
+            </ol>
+
+            <ol class="threecol hidden">
+                {% for post in site.categories.event offset:3 %}
+                    <li {% cycle 'class="event-type col"', 'class="event-type col"', ' class="event-type col last"' %}>
+                        <div class="event">
+                            <div class="datetime">
+                                <span class="date">{{ post.date | date: "%d.%m.%Y" }}</span>
+                                <span class="time">{{ post.time }}</span>
+                            </div>
+                            <h3>
+                                <a href="#">{{post.title}}</a>
+                            </h3>
+                            <div class="social media">
+                                <a href="{{ post.twitter }}" class="ss-icon ss-social-circle">Twitter</a>
+                                <a href="{{ post.facebook }}" class="ss-icon ss-social-circle">Facebook</a>
+                                <a href="mailto:{{ post.email }}" class="ss-icon ss-social-circle">Email</a>
+                            </div>
+                            <p>{{ post.detail }} <a href=" {{ post.link }}">More information&hellip;</a></p>
+                      </li> <!-- /event -->
+                  {% endfor %}
             </ol>
 
 			<div class="more-link">
@@ -41,8 +60,7 @@ layout: layout
 		<section class="jobs listings wrapper" id="jobs">
 			<h2 class="section-title">Jobs</h2>
 				<ol class="fourcol">
-                    {% for post in site.posts %}
-                        {% if post.category contains 'job' %}
+                    {% for post in site.categories.job limit:4 %}
     					<li class="job-type col">
     						<div class="job">
     							<h3>
@@ -60,12 +78,34 @@ layout: layout
     							<a href="{{ post.link }}" class="button shadow">More details</a>
     						</div>
     					</li>
-                        {% endif %}
+                    {% endfor %}
+                </ol>
+
+                <!-- Hidden jobs below - We loop over the jobs starting where we left off -->
+                <ol class="fourcol hidden">
+                    {% for post in site.categories.job offset:4 %}
+                        <li {% cycle 'class="job-type col"', 'class="job-type col"','class="job-type col"', ' class="job-type col last"' %}>
+                            <div class="job">
+                                <h3>
+                                    <a href="{{ post.link }}">{{ post.role}}</a>
+                                </h3>
+                                <span class="company">
+                                    <a href="{{ post.company_url }}">{{ post.company }}</a>
+                                </span>
+                                <span class="location">{{ post.location }}</span>
+                                <p>{{ post.detail }}&hellip;</p>
+                                    <div class="closingdate">
+                                    <span class="closing">closing date</span>
+                                     <span class=" datetime">{{ post.closing_date }}</span>
+                                </div>
+                                <a href="{{ post.link }}" class="button shadow">More details</a>
+                            </div>
+                        </li>
                     {% endfor %}
                 </ol>
 
 				<div class="more-link">
-					<a class="button" href="#">4 more jobs</a>
+					<a class="button" href="#">More jobs</a>
 				</div>
 
 		</section>

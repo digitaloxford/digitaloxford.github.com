@@ -458,7 +458,7 @@ article.show-art {
 .other-members a:hover img{
 	opacity: 1;
 	display: inherit;
-	margin-top:-33%;
+	margin-top:-67px;
 }
 
 .other-members img {

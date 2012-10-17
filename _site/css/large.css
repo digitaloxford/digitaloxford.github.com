@@ -45,7 +45,9 @@ header a {
 
  .twocol .col:last-child,
  .threecol .col:last-child,
- .fourcol .col:last-child {
+ .threecol .col.last,
+ .fourcol .col:last-child,
+ .fourcol .col.last {
 	 margin-right: 0; /* TODO: IE will break */
  }
 
