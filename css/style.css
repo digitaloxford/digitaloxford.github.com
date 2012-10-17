@@ -11,6 +11,9 @@ body {
 	line-height: 1.35em;
 	background: #fff url(../img/shattered.png) top left repeat;
 }
+
+/* Typography */
+
 h1, h2, h3, h4, h5, h6 , header nav a, .datetime, .closing, .button {
 	font-family: 'proxima-nova-sc-osf-ext-cond', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
 	text-transform: uppercase;
@@ -20,6 +23,45 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 600;
 	line-height: 1.2em;
 }
+
+/* Links */
+
+a:link,
+a:visited {
+	color: #7CA6AC;
+	text-decoration: none;
+}
+
+ a:hover,
+ a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+/* Buttons */
+
+.button,
+a:link.button,
+a.button:visited{
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+	padding: 0.33em 0.5em;
+	display: inline-block;
+}
+
+.shadow {
+	box-shadow: 3px 3px 0 #E9DFC9;
+}
+
+.button.shadow:hover,
+.button.shadow:active {
+	background: #e09c00;
+	color: #000;
+	box-shadow: 3px 3px 0 #E9DFC9;
+}
+
+/* General */
 
 .wrapper {
 	width: 90%;
@@ -46,11 +88,6 @@ section {
 	text-align: center;
 }
 
-/* .jobs .fourcol {
-	height:370px;
-	overflow:hidden;
-} */
-
 .jobs .section-title {
 	text-shadow: 3px 3px 0 white;
 }
@@ -60,43 +97,11 @@ section {
 	font-size: 1.444444444em;
 }
 
-.button,
-a:link.button  {
-	background: #333;
-	color: #fff;
-	text-decoration: none;
-	padding: 0.33em 0.5em;
-	display: inline-block;
-}
-
-.shadow {
-		box-shadow: 3px 3px 0 #E9DFC9;
-}
-
-.button.shadow:hover,
-.button.shadow:active {
-	background: #e09c00;
-	color: #000;
-	box-shadow: 3px 3px 0 #E9DFC9;
-}
-
-
- a:link,
- a:visited {
-	color: #7CA6AC;
-	text-decoration: none;
-}
-
- a:hover,
- a:active {
-	color: #000;
-	text-decoration: none;
-}
- .fourcol .col {
+.fourcol .col {
 	 margin-right: 3.6%;
 	 width: 48.2%;
 	 float: left;
-	 margin-bottom:2%;
+	 margin-bottom:4%;
  }
 
 .fourcol .col:nth-child(even) {
@@ -442,7 +447,7 @@ article.show-art {
 }
 
 .other-members {
-	overflow: hidden;
+	/* overflow: hidden; */
 	position: relative;
 	height: 3.611111111em;
 	margin-bottom: 1em;
@@ -451,14 +456,11 @@ article.show-art {
 
 .other-members a {
 	height:50px;
+	float:left;
 	opacity: 0.6;
 	overflow: hidden;
-}
-
-.other-members a:hover img{
-	opacity: 1;
-	display: inherit;
-	margin-top:-67px;
+	margin-right:2.6%;
+	width:200px;
 }
 
 .other-members img {
@@ -547,7 +549,7 @@ footer h3 {
 }
 
 .social-links {
-	width: 40%;
+	width: 42%;
 	float: left;
 }
 
@@ -599,7 +601,7 @@ footer h3 {
  * Expand/ hide sections
  */
 
- .hidden {
+ .hidden-post {
  	display:none;
  	width:100%;
  	float:left;
@@ -625,15 +627,23 @@ footer h3 {
      height: 0;
  }
 
+.other-members a:hover img{
+	opacity: 1;
+	display: inherit;
+	margin-top:-33%;
+}
+
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+@media all and (max-width: 993px) {
 
-
-
-
+	.other-members a:hover img{
+	    margin-top:0;
+	}
+}
 
 

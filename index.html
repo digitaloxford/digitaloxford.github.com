@@ -31,7 +31,7 @@ layout: layout
               {% endfor %}
             </ol>
 
-            <ol class="threecol hidden">
+            <ol class="threecol hidden-post">
                 {% for post in site.categories.event offset:3 %}
                     <li {% cycle 'class="event-type col"', 'class="event-type col"', ' class="event-type col last"' %}>
                         <div class="event">
@@ -53,7 +53,7 @@ layout: layout
             </ol>
 
 			<div class="more-link">
-				<a class="button" href="#">3 more events</a>
+				<a class="button expand" href="#">More events</a>
 			</div>
 		</section>
 
@@ -82,7 +82,7 @@ layout: layout
                 </ol>
 
                 <!-- Hidden jobs below - We loop over the jobs starting where we left off -->
-                <ol class="fourcol hidden">
+                <ol class="fourcol hidden-post">
                     {% for post in site.categories.job offset:4 %}
                         <li {% cycle 'class="job-type col"', 'class="job-type col"','class="job-type col"', ' class="job-type col last"' %}>
                             <div class="job">
@@ -105,7 +105,7 @@ layout: layout
                 </ol>
 
 				<div class="more-link">
-					<a class="button" href="#">More jobs</a>
+					<a class="button expand" href="#">More jobs</a>
 				</div>
 
 		</section>
@@ -118,6 +118,7 @@ layout: layout
         			<a class="member col" href="www.digitaloxon.com"><img alt="Digital Oxon" src="img/torchbox-grey.png"></a>
         		</div>
         		<div class="more-link become">
-					<a class="button" href="#">Become a member</a>
+                    <!-- Link to mailchimp form -->
+					<a class="button" href="http://eepurl.com/qHH9P">Become a member</a>
 				</div>
         </section>
