@@ -1,0 +1,53 @@
+.intro-text {
+	width: 40%;
+	left: 50%;
+}
+
+header a {
+	font-weight: 300;
+}
+
+.artwork-panel,
+.artwork-teaser {
+	font-size: 0.85em;
+}
+
+.artwork-panel {
+	max-width: 13.44444444444444em;
+}
+
+/*
+ * Events
+ */
+
+ .fourcol .col:nth-child(even),
+ .col {
+ 	margin-right: 3.6%;
+ 	float: left;
+ }
+
+ .col.big-tweet {
+    margin-left:3.6%;
+ }
+
+ .twocol .col {
+ 	width: 48.2%;
+ }
+
+
+ .threecol .col {
+	 width: 30.933333333%;
+ }
+
+.fourcol .col {
+	 width: 22.3%;
+ }
+
+ .twocol .col:last-child,
+ .threecol .col:last-child,
+ .threecol .col.last,
+ .fourcol .col:last-child,
+ .fourcol .col.last {
+	 margin-right: 0; /* TODO: IE will break */
+ }
+
