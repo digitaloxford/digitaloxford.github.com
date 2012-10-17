@@ -46,6 +46,11 @@ section {
 	text-align: center;
 }
 
+/* .jobs .fourcol {
+	height:370px;
+	overflow:hidden;
+} */
+
 .jobs .section-title {
 	text-shadow: 3px 3px 0 white;
 }
@@ -480,6 +485,10 @@ article.show-art {
 	padding-right: .75em;
 }
 
+.more-link a.expanded:before {
+	content:"\25b2";
+}
+
 .more-link .button,
 .more-link a:link.button,
 .more-link a:visited {
@@ -508,7 +517,7 @@ article.show-art {
 footer {
 	 background: #005b68 url(../img/shattered-trans.png) top left repeat;
 	 color: #fff;
-	 padding: 2em 0;
+	 padding: 2em 5%;
 }
 
 footer > div {
@@ -585,6 +594,16 @@ footer h3 {
 .social-links a:active {
 	color: #000;
 }
+
+/*
+ * Expand/ hide sections
+ */
+
+ .hidden {
+ 	display:none;
+ 	width:100%;
+ 	float:left;
+ }
 
 
 

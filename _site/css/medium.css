@@ -1,0 +1,35 @@
+body {
+	font-size: 1.125em; /* 18/16 = 1.125 18px */
+}
+
+header h1 {
+	height: 270px;
+	width: 320px;
+	background-size: 320px 270px;
+}
+
+
+
+/*
+* Introduction
+*/
+
+.intro {
+	height: 500px;
+	background: transparent url(../img/oxford.jpg) center top no-repeat;
+	background-size: cover;
+}
+
+.intro .wrapper {
+	position: relative;
+}
+
+.intro-text {
+	background-color: #ffc237;
+	width: 76%;
+	position: absolute;
+	top: 3em;
+	left: 10%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
