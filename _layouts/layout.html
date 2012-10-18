@@ -1,0 +1,136 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <script type="text/javascript" src="//use.typekit.net/jnw3mcc.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <title>Digital Oxford</title>
+
+  <!-- Everyone gets this one -->
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  <link href="webfonts/ss-social.css" rel="stylesheet" />
+
+  <!-- Only screens larger than 480px get this one -->
+  <link rel="stylesheet" href="css/medium.css" media="all and (min-width: 481px)">
+
+  <!-- Only screens larger than 768px get this one -->
+  <link rel="stylesheet" href="css/large.css" media="all and (min-width: 769px)">
+
+  <!-- Only retina (or similar) devices get this one -->
+  <link rel="stylesheet" href="css/high-dpi.css" type="text/css" media="only screen and (-webkit-min-device-pixel-ratio: 1.5)">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    header.artheight {
+      /*what height is our artwork?*/
+      height: 828px;
+    }
+  </style>
+
+  <script src="http://code.jquery.com/jquery-1.8.1.min.js" type="text/javascript"></script>
+
+
+    <!-- DEV -->
+
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+  <script>
+    $(document).ready(function(){
+    var artheight = '1100px';
+
+      function toggleArtwork() {
+          $("#main-article").toggleClass("show-art");
+          $("#artwork-teaser").toggleClass("hidden");
+          $("#artwork-panel").toggleClass("reveal");
+          $("header .wrapper").toggleClass("slight");
+          $("header").toggleClass("artheight");
+          return false;
+        }
+
+        $(".toggle-art").click(function() {
+          toggleArtwork();
+          return false;
+         });
+
+    });
+
+
+  </script>
+
+</head>
+
+<body>
+
+
+  <header>
+    <div class="logo">
+      <h1>Digital Oxfordshire</h1>
+      <nav>
+        <ul>
+          <li><a href="#jobs">Jobs</a></li>
+          <li><a href="#events">Events</a></li>
+          <li class="last"><a href="#members">Members</a></li>
+        </ul>
+
+      </nav>
+    </div>
+
+    <div class="artwork-teaser" id="artwork-teaser">
+      <p>Background by</p>
+      <h2>
+          <a href="#">Sarah Plant</a>
+      </h2>
+      <a href="" class="button artwork-button toggle-art">Show</a>
+     </div>
+
+      <div class="artwork-panel" id="artwork-panel">
+        <p>Background by</p>
+        <h2>Sarah Plant</h2>
+        <p>Designer at @torchbox & Co-creator at @fermentzine</p>
+        <a href="#">http://plantsarah.com</a>
+        <a href="#" class="toggle-art close-panel">&times;</a>
+      </div>
+
+  </header> <!-- /Header -->
+
+  <article id="main-article"class="clearfix">
+
+    {{ content }}
+
+  </article>
+
+  <footer>
+      <div>
+        <h3>
+          <a href="http://www.torchbox.com/">Latest on Twitter</a>
+        </h3>
+        <div class="tweets fourcol clearfix">
+          <ul>
+              <div id="tweet-panel">
+                <li class="col">Someone pointed out this morning that @torchbox might be the only office in Oxfordshire that uses twice-ground coffee.<a href="#">17 June 2013</a></li>
+                <li class="col">nterested in consultations and open policymaking? Help us make things better. New discussion space hosted by @demsoc - http://openpolicy.demsoc.org/ <a href="#">17 June 2013</a></li>
+                <li class="col">"From Oct 17th, GOV.UK will replace Directgov as the best place to find government services and information."<a href="#">17 June 2013</a></li>
+              </div>
+                <li class="col big-tweet"><p>Follow <a href="http://www.twitter.com/digital_oxford">@digital_oxford</a> on twitter</p></li>
+          </ul>
+        </div>
+
+        <div class="footer-info clearfix">
+          <div class="social-links">
+            <ul>
+              <li><a href="http://www.twitter.com/digital_oxford" class="ss-icon ss-social-circle">Twitter</a></li>
+              <li><a href="#" class="ss-icon ss-social-circle">Flickr</a></li>
+              <li><a href="#" class="ss-icon ss-social-circle">Email</a></li>
+            </ul>
+          </div>
+          <div class="credit">
+            <p>Site by <a href="http://www.torchbox.com/" >Torchbox</a> & <a href="http://www.whiteoctober.co.uk" >White October</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
