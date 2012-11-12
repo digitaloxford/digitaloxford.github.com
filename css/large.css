@@ -1,3 +1,7 @@
+.wrapper {
+	max-width: 960px;
+}
+
 .intro-text {
 	width: 40%;
 	left: 50%;
