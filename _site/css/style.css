@@ -369,7 +369,7 @@ article.show-art {
 
 /*
  * Events styles
- */ ]
+ */
 
  .social {
 	 width: 100%;
@@ -382,11 +382,10 @@ article.show-art {
  	 color: #7ca6ac;
  }
 
- .event .social a {;
-	display: block;
+ .event .social a {
+	display: inline-block;
 	text-decoration: none;
 	font-size: 1.8em;
-	float: left;
 	color: #7ca6ac;
 	text-align: center;
 	margin-right: 0.3em;
