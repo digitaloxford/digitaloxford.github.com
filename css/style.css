@@ -15,7 +15,7 @@ body {
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 , header nav a, .datetime, .button {
-	font-family: 'proxima-nova-sc-osf-ext-cond', 'Arial Narrow', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
+	font-family: 'proxima-nova-sc-osf-ext-cond', 'Arial Narrow','HelveticaNeue-CondensedBold', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -88,17 +88,13 @@ section {
 	text-align: center;
 }
 
-.jobs .section-title {
-	text-shadow: 3px 3px 0 white;
-}
-
 
 
 .fourcol .col {
 	 margin-right: 3.6%;
 	 width: 48.2%;
 	 float: left;
-	 margin-bottom:4%;
+	 margin-bottom: 1.5em;
  }
 
 .fourcol .col:nth-child(even) {
@@ -356,7 +352,9 @@ article {
 	display: block;
 }
 
-
+.jobs .section-title {
+	text-shadow: 3px 3px 0 white;
+}
 
 .jobs-logo {
 	display: block;
@@ -365,7 +363,6 @@ article {
 	top: 3.2em;
 	left: 78.2%;
 }
-
 
 .job .location {
 	margin-bottom: 0.5em;
