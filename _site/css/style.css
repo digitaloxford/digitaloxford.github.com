@@ -14,8 +14,8 @@ body {
 
 /* Typography */
 
-h1, h2, h3, h4, h5, h6 , header nav a, .datetime, .closing, .button {
-	font-family: 'proxima-nova-sc-osf-ext-cond', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
+h1, h2, h3, h4, h5, h6 , header nav a, .datetime, .button {
+	font-family: 'proxima-nova-sc-osf-ext-cond', 'Arial Narrow', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -92,10 +92,7 @@ section {
 	text-shadow: 3px 3px 0 white;
 }
 
-.closing {
-	font-weight: 100;
-	font-size: 1.444444444em;
-}
+
 
 .fourcol .col {
 	 margin-right: 3.6%;
@@ -307,13 +304,14 @@ article {
 	  color: #e09c00;
   }
 
- .listings .datetime,
- .closing {
+ .listings .datetime {
  	font-weight: 100;
  	text-transform: none;
  	font-size: 1.444444444em;
  	padding-bottom: 0.384615385em;
  }
+ 
+
 
 /*
  * Events styles
@@ -379,12 +377,19 @@ article {
 
 .job p {
 	font-size: 0.825em;
-	line-height: 1.6em;
+	line-height: 1.5em;
 }
 
 .closingdate {
+	margin-bottom: 1em;
+}
 
-	margin-bottom: 2em;
+.closing {
+	display: block;
+	font-size: 0.666666667em;
+	text-transform: uppercase;
+	color: #777;
+	line-height: 1.2em;
 }
 
 /* Members */

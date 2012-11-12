@@ -76,7 +76,7 @@ $(function(){
 
     /* Twitter feed */
 
-    $.getJSON('http://search.twitter.com/search.json?q=from:digital_oxford&callback=?')
+    $.getJSON('http://search.twitter.com/search.json?q=from:digitaloxford&callback=?')
     .pipe(function(data){
         return (data.results || []).slice(0,3)
     })
@@ -90,7 +90,7 @@ $(function(){
             var month = "J F M A M J J A S October N D".split(' ')[d.getMonth()];
             var year = d.getFullYear();
 
-            var $a = $('<a>',{href:'https://twitter.com/digital_oxford/status/' + tweet.id_str})
+            var $a = $('<a>',{href:'https://twitter.com/digitaloxford/status/' + tweet.id_str})
                         .text(day + ' ' + month + ' ' + year);// todo - format date
 
             $a.appendTo($li);
