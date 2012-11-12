@@ -149,7 +149,15 @@ header a:active {
 header .logo {
 	margin: 0 auto;
 	max-width: 1000px;
+		-webkit-transition: opacity .5s ease-in-out;
+
 }
+
+.slight {
+	opacity: 0.1;
+	-webkit-transition: opacity .5s ease-in-out;
+}
+
 
 header nav {
 	margin-bottom: 1.5em;
@@ -171,14 +179,6 @@ header nav li.last {
 	margin-right: 0;
 }
 
-header .wrapper {
-	-webkit-transition: opacity .5s ease-in-out;
-}
-
-header .wrapper.slight {
-	opacity: 0.2;
-	-webkit-transition: opacity .5s ease-in-out;
-}
 
 article > section {
 	background-color: white;
@@ -215,7 +215,7 @@ article.show-art {
 }
 
 .artwork-teaser.hidden {
-	right: -9em;
+	right: -10em;
 }
 
 .artwork-panel {
@@ -441,9 +441,6 @@ article.show-art {
 
 /* Members */
 
-.members {
-	padding-bottom: 4em;
-}
 
 .other-members {
 	/* overflow: hidden; */
@@ -454,17 +451,21 @@ article.show-art {
 }
 
 .other-members a {
-	height:50px;
-	float:left;
+	height: 50px;
+	float: left;
 	opacity: 0.6;
 	overflow: hidden;
-	margin-right:2.6%;
-	width:200px;
+	margin-right: 2.6%;
 }
 
 .other-members img {
-	width:100%;
-	max-width:200px;
+	width: 100%;
+	max-width: 100%;
+}
+
+
+.other-members a:hover img{
+
 }
 
 /* More link */
@@ -626,11 +627,6 @@ footer h3 {
      height: 0;
  }
 
-.other-members a:hover img{
-	opacity: 1;
-	display: inherit;
-	margin-top:-33%;
-}
 
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
