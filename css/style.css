@@ -473,35 +473,31 @@ article {
  */
 
 footer {
-	 background: #005b68 url(../img/shattered-trans.png) top left repeat;
+	 background: #333;
 	 color: #fff;
-	 padding: 2em 5%;
-}
-
-footer > div {
-	margin: 0 auto;
-	max-width: 900px;
+	 color: rgba(255,255,255,0.66);
+	 padding: 3em 0 0;
+	 margin-top: -3em;
 }
 
 footer a:link,
 footer a:visited {
-	color: rgba(255,255,255,0.8);
+	color: #fff;
+}
+
+footer a:hover,
+footer a:active {
+	color: #E09C00;
 }
 
 footer h3 {
 	color: #fff;
 }
 
-.tweets {
-	font-size:  0.88888888888889em;
-	margin-bottom: 1em;
-}
 
 .footer-info {
 	width: 100%;
-	border-top: 1px solid rgba(255,255,255,0.1);
-	margin-top: 1em;
-	padding-top: 1em;
+
 }
 
 .social-links {
@@ -522,20 +518,6 @@ footer h3 {
 	padding-left: 0;
 }
 
-.big-tweet {
-	font-size: 1.3em;
-	line-height: 1.3em;
-}
-
-.big-tweet a:link,
-.big-tweet a:visited {
-	color: #fff;
-}
-
-.big-tweet a:hover,
-.big-tweet a:active {
-	color: #000;
-}
 
 .social-links li {
 	display: inline-block;
@@ -550,8 +532,10 @@ footer h3 {
 
 .social-links a:hover,
 .social-links a:active {
-	color: #000;
+	color: #E09C00;
 }
+
+
 
 /*
  * Expand/ hide sections
