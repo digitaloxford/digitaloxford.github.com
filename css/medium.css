@@ -70,6 +70,10 @@ article.show-art {
 	right: -10em;
 }
 
+.artwork-teaser a {
+	color: #000;
+}
+
 .artwork-panel {
 	right: -15.44444444444444em;
 	background: rgba(0,0,0,0.8);

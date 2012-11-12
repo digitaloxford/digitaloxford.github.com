@@ -132,8 +132,8 @@ header h1 {
 	margin: 1em auto 0.5em;
 }
 
-header a:link,
-header a:visited {
+.logo a:link,
+.logo a:visited {
 	color: #fff;
 	text-decoration: none;
 	letter-spacing: 0.05555555555556em;
@@ -141,23 +141,21 @@ header a:visited {
 	padding: 0.33em 0.5em;
 }
 
-header a:hover,
-header a:active {
+.logo a:hover,
+.logo a:active {
 	background: rgba(0,0,0, 0.75);
 }
 
-header .logo {
+.logo {
 	margin: 0 auto;
 	max-width: 1000px;
-		-webkit-transition: opacity .5s ease-in-out;
-
+	-webkit-transition: opacity .5s ease-in-out;
 }
 
 .slight {
 	opacity: 0.1;
 	-webkit-transition: opacity .5s ease-in-out;
 }
-
 
 header nav {
 	margin-bottom: 1.5em;
@@ -211,10 +209,8 @@ article {
  }
 
 .tagline h2 {
-	font-family: 'ff-meta-web-pro', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
-	text-transform: none;
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	text-align: center;
 	margin-bottom: 0;
 	line-height: 1.4em;
@@ -452,6 +448,10 @@ article {
 	text-decoration: none;
 	padding: 0 2em;
 	background: #fff;
+}
+
+.jobs .more-link a {
+	background: #E8F1F2 url(../img/retina_dust.png) top left repeat;
 }
 
 .more-link a:hover.button,
