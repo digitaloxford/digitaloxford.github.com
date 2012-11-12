@@ -2,13 +2,20 @@ body {
 	font-size: 1.125em; /* 18/16 = 1.125 18px */
 }
 
+header {
+	min-height: 800px;
+}
+
 header h1 {
 	height: 270px;
 	width: 320px;
 	background-size: 320px 270px;
+
 }
 
-
+.section-title {
+	font-size: 3.7em;
+}
 
 
 /*

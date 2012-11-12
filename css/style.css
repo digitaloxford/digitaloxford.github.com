@@ -78,7 +78,7 @@ section {
 
 .section-title {
 	font-family: 'proxima-nova-sc-osf-ext-cond', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
-	font-size: 3.7em;
+	font-size: 2.5em;
 	clear: both;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -118,7 +118,7 @@ header {
 	color: #fff;
 	overflow: hidden;
 	width: 100%;
-	min-height: 800px;
+	min-height: 600px;
 	position: relative;
 	z-index: 2;
 }
