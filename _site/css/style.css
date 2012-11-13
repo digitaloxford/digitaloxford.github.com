@@ -392,31 +392,39 @@ article {
 /* Members */
 
 
-.other-members {
+.members {
 	/* overflow: hidden; */
 	position: relative;
-	height: 3.611111111em;
 	margin-bottom: 1em;
 	padding-bottom: 2em;
 }
 
-.other-members a {
-	height: 50px;
+.members a {
+	display: block;
 	float: left;
-	opacity: 0.6;
 	overflow: hidden;
 	margin-right: 2.6%;
+	height: 4em;
+	margin-top: 1.5em;
+	margin-bottom: 0;
 }
 
-.other-members img {
+.members img {
 	width: 100%;
-	max-width: 100%;
+	text-align: center;
+	margin: 0;
+	display: block;
+	opacity: 0.8;
+	-webkit-transition: 0.1s all ease-out;
+}
+.members a:hover img {
+
+	opacity: 1;
+	-webkit-transition: 0.1s all ease-out;
+
 }
 
-
-.other-members a:hover img{
-
-}
+a.tall {height: 5em; margin-top: 0em;}
 
 /* More link */
 
@@ -574,11 +582,5 @@ footer h3 {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-@media all and (max-width: 993px) {
-
-	.other-members a:hover img{
-	    margin-top:0;
-	}
-}
 
 
