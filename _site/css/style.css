@@ -139,6 +139,7 @@ header h1 {
 
 .logo a:hover,
 .logo a:active {
+	background: #000;
 	background: rgba(0,0,0, 0.75);
 }
 
@@ -210,6 +211,7 @@ article {
  */
 
  .tagline {
+ 	background: #000;
 	 background: rgba(0,0,0,0.5);
 	 margin-bottom: 0;
 	 padding-bottom: 2em;
@@ -290,6 +292,7 @@ article {
 
 .intro-text p {
 	padding-right: 1em;
+	background: #000;
 	color: rgba(0,0,0,0.7);
 }
 

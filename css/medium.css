@@ -65,6 +65,7 @@ article.show-art {
 }
 
 .artwork-teaser {
+	background: #000;
 	background: rgba(255,255,255,0.33);
 	right: 0;
 	color: #000;
@@ -80,6 +81,7 @@ article.show-art {
 
 .artwork-panel {
 	right: -15.44444444444444em;
+	background: #000;
 	background: rgba(0,0,0,0.8);
 	max-width: 11.16666666666667em;
 	color: #fff;
