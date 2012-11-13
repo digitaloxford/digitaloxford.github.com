@@ -12,7 +12,7 @@ layout: layout
             <ol class="threecol">
               <!-- If type = event.. -->
               {% for post in site.categories.event limit:3 %}
-                  <li class="event-type col">
+                  <li {% cycle 'class="event-type col"', 'class="event-type col"', ' class="event-type col last"' %}>
                     <div class="event">
                         <div class="datetime">
                             <span class="date">{{ post.date | date: "%d.%m.%Y" }}</span>
@@ -65,7 +65,8 @@ layout: layout
 			<h2 class="section-title">Jobs</h2>
 				<ol class="fourcol">
                     {% for post in site.categories.job limit:4 %}
-    					<li class="job-type col">
+    					<li {% cycle 'class="job-type col"', 'class="job-type col"','class="job-type col"', ' class="job-type col last"' %}>
+
     						<div class="job">
     							<h3>
     								<a href="{{ post.link }}">{{ post.role}}</a>
