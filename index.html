@@ -21,12 +21,13 @@ layout: layout
                         <h3>
                             <a href="#">{{post.title}}</a>
                         </h3>
+                        
+                        <p>{{ post.detail }} <a href=" {{ post.link }}">More information&hellip;</a></p>
                         <div class="social media">
                             <a href="{{ post.twitter }}" class="ss-icon ss-social-circle">Twitter</a>
                             <a href="{{ post.facebook }}" class="ss-icon ss-social-circle">Facebook</a>
                             <a href="mailto:{{ post.email }}" class="ss-icon ss-social-circle">Email</a>
                         </div>
-                        <p>{{ post.detail }} <a href=" {{ post.link }}">More information&hellip;</a></p>
                   </li> <!-- /event -->
               {% endfor %}
             </ol>
