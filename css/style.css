@@ -399,17 +399,14 @@ article {
 	padding-bottom: 2em;
 }
 
-.members a {
+.member-logos a.col {
 	display: block;
-	float: left;
-	overflow: hidden;
-	margin-right: 2.6%;
 	height: 4em;
 	margin-top: 1.5em;
-	margin-bottom: 0;
+	margin-bottom: 1em;
 }
 
-.members img {
+.member-logos img {
 	width: 100%;
 	text-align: center;
 	margin: 0;
@@ -417,14 +414,19 @@ article {
 	opacity: 0.8;
 	-webkit-transition: 0.1s all ease-out;
 }
-.members a:hover img {
 
+.member-logos a:hover img {
 	opacity: 1;
 	-webkit-transition: 0.1s all ease-out;
-
 }
 
-a.tall {height: 5em; margin-top: 0em;}
+
+/* Use this for member logos that are taller than others */
+
+.member-logos a.tall {
+	height: 4.5em;
+	margin-top: 0;
+}
 
 /* More link */
 
@@ -460,7 +462,7 @@ a.tall {height: 5em; margin-top: 0em;}
 	background: #fff;
 }
 
-.jobs .more-link a {
+.jobs .more-link a.button {
 	background: #E8F1F2 url(../img/retina_dust.png) top left repeat;
 }
 
