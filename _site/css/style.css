@@ -13,9 +13,9 @@ body {
 }
 
 /* Typography */
-
+.section-title,
 h1, h2, h3, h4, h5, h6 , header nav a, .datetime, .button {
-	font-family: 'proxima-nova-sc-osf-ext-cond', 'Arial Narrow','HelveticaNeue-CondensedBold', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
+	font-family: 'proxima-nova-sc-osf-ext-cond', 'Arial Narrow','HelveticaNeue-CondensedBold', 'Helvetica Neue', Arial, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -67,7 +67,7 @@ a.button:visited{
 	width: 90%;
 	margin: 0 auto;
 	padding: 2em 5% 2em;
-	max-width: 400px;
+	max-width: 600px;
 	min-width: 280px;
 }
 
@@ -77,10 +77,8 @@ section {
 
 
 .section-title {
-	font-family: 'proxima-nova-sc-osf-ext-cond', 'Helvetica Neue', Arial, Helvetica, Helmet, Freesans, sans-serif;
 	font-size: 2.5em;
 	clear: both;
-	text-transform: uppercase;
 	font-weight: 600;
 	margin-top: 0.2em;
 	margin-bottom: 0.5em;
