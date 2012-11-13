@@ -108,6 +108,9 @@ section {
 header {
 	background: #000 url(../img/stripes.jpg) center top no-repeat;
 	-webkit-transition: 1s height ease-out;
+	   -moz-transition: 1s height ease-out;
+	     -o-transition: 1s height ease-out;
+	        transition: 1s height ease-out;
 	color: #fff;
 	overflow: hidden;
 	width: 100%;
@@ -143,11 +146,19 @@ header h1 {
 	margin: 0 auto;
 	max-width: 1000px;
 	-webkit-transition: opacity .5s ease-in-out;
+	   -moz-transition: opacity .5s ease-in-out;
+	   	 -o-transition: opacity .5s ease-in-out;
+	   	    transition: opacity .5s ease-in-out;
+
+
 }
 
 .slight {
 	opacity: 0.1;
 	-webkit-transition: opacity .5s ease-in-out;
+	   -moz-transition: opacity .5s ease-in-out;
+	   	 -o-transition: opacity .5s ease-in-out;
+	   	    transition: opacity .5s ease-in-out;
 }
 
 header nav {
@@ -184,6 +195,9 @@ article {
 	z-index: 5;
 	padding-top: 2em;
 	-webkit-transition: margin .5s ease-in-out;
+	   -moz-transition: margin .5s ease-in-out;
+	     -o-transition: margin .5s ease-in-out;
+	        transition: margin .5s ease-in-out;
 }
 
 .artwork-panel,
@@ -220,25 +234,40 @@ article {
 /*
  * Transitions stuff
  */
- .artwork-teaser,
- .artwork-teaser.hidden {
-	 -webkit-transition: right 0.4s ease-in;
- }
+.artwork-teaser,
+.artwork-teaser.hidden {
+ -webkit-transition: right 0.4s ease-in;
+    -moz-transition: right 0.4s ease-in;
+      -o-transition: right 0.4s ease-in;
+      	 transition: right 0.4s ease-in;
+}
 
-  .artwork-teaser {
-	  -webkit-transition-delay: 0.4s;
-  }
+.artwork-teaser {
+  -webkit-transition-delay: 0.4s;
+     -moz-transition-delay: 0.4s;
+       -o-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
 
- .artwork-panel,
- .artwork-panel.reveal {
-	-webkit-transition: right 0.5s ease-in-out;
-	-webkit-transition-delay: 0.4s;
- }
+.artwork-panel,
+.artwork-panel.reveal {
+-webkit-transition: right 0.5s ease-in-out;
+   -moz-transition: right 0.5s ease-in-out;
+     -o-transition: right 0.5s ease-in-out;
+        transition: right 0.5s ease-in-out;
+-webkit-transition-delay: 0.4s;
+   -moz-transition-delay: 0.4s;
+     -o-transition-delay: 0.4s;
+        transition-delay: 0.4s;
+}
 
-  .artwork-panel {
-	 -webkit-transition-delay: 0;
+.artwork-panel {
+-webkit-transition-delay: 0;
+   -moz-transition-delay: 0;
+     -o-transition-delay: 0;
+        transition-delay: 0;
 
-  }
+}
 
 /*
 * Introduction
@@ -413,11 +442,17 @@ article {
 	display: block;
 	opacity: 0.8;
 	-webkit-transition: 0.1s all ease-out;
+	   -moz-transition: 0.1s all ease-out;
+	     -o-transition: 0.1s all ease-out;
+	        transition: 0.1s all ease-out;
 }
 
 .member-logos a:hover img {
 	opacity: 1;
 	-webkit-transition: 0.1s all ease-out;
+	   -moz-transition: 0.1s all ease-out;
+	     -o-transition: 0.1s all ease-out;
+	        transition: 0.1s all ease-out;
 }
 
 
