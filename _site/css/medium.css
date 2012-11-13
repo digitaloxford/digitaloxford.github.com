@@ -2,6 +2,10 @@ body {
 	font-size: 1.125em; /* 18/16 = 1.125 18px */
 }
 
+article {
+	margin-top: -20em;
+}
+
 header {
 	min-height: 720px;
 }
@@ -10,7 +14,7 @@ header h1 {
 	height: 270px;
 	width: 320px;
 	background-size: 320px 270px;
-
+	margin-top: 1em;
 }
 
 .section-title {

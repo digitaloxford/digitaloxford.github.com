@@ -122,7 +122,7 @@ header h1 {
 	width: 200px;
 	background: transparent url(../img/logo.png) top left no-repeat;
 	background-size: 200px 169px; /* TODO RE-RENDER LOGO */
-	margin: 1em auto 0.5em;
+	margin: .75em auto 0.5em;
 }
 
 .logo a:link,
@@ -179,7 +179,7 @@ article {
 	max-width: 1000px;
 	background: transparent;
 	overflow: hidden;
-	margin: -20em auto 0;
+	margin: -21em auto 0;
 	position: relative;
 	z-index: 5;
 	padding-top: 2em;
