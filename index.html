@@ -34,7 +34,7 @@ layout: layout
             </ol>
 
             <ol class="threecol hidden-post">
-                {% for post in site.categories.event reversed offset:3 %}
+                {% for post in site.categories.event offset:3 %}
                     <li {% cycle 'class="event-type col"', 'class="event-type col"', ' class="event-type col last"' %}>
                         <div class="event">
                             <div class="datetime">
