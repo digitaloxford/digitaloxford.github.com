@@ -49,7 +49,7 @@ $(function(){
 
     $('.more-link').on('click', 'a.expand', function(e){
         e.preventDefault();
-        var hey = $(this).parents('.more-link').siblings('.hidden-post').slideToggle();
+        $(this).parents('.more-link').siblings('.hidden-post').slideToggle();
         $(this).toggleClass('expanded');
     });
 
@@ -74,5 +74,5 @@ $(function(){
     });
 
 
-   
+
 });

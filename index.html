@@ -10,9 +10,16 @@ layout: layout
 			<h2 class="section-title">Events</h2>
 
             <ol class="threecol">
-              <!-- If type = event.. -->
-              {% for post in site.categories.event limit:3 %}
-                  <li {% cycle 'class="event-type col"', 'class="event-type col"', ' class="event-type col last"' %}>
+              <!-- If type = event.. - correct data order -->
+              {% for post in site.categories.event reversed %}
+
+                  {% if forloop.index == 4 %}
+            </ol>
+
+            <ol class="threecol hidden-post">
+                  {% endif %}
+
+                  <li class="event-type col{% cycle '', '', ' last' %}">
                     <div class="event">
                         <div class="datetime">
                             <span class="date">{{ post.date | date: "%d.%m.%Y" }}</span>
@@ -21,7 +28,7 @@ layout: layout
                         <h3>
                             <a href="#">{{post.title}}</a>
                         </h3>
-                        
+
                         <p>{{ post.detail }}</p>
                        <!-- <div class="social media">
                             <a href="{{ post.twitter }}" class="ss-icon ss-social-circle">Twitter</a>
@@ -32,30 +39,6 @@ layout: layout
                   </li> <!-- /event -->
               {% endfor %}
             </ol>
-
-            <ol class="threecol hidden-post">
-                {% for post in site.categories.event offset:3 %}
-                    <li {% cycle 'class="event-type col"', 'class="event-type col"', ' class="event-type col last"' %}>
-                        <div class="event">
-                            <div class="datetime">
-                                <span class="date">{{ post.date | date: "%d.%m.%Y" }}</span>
-                                <span class="time">{{ post.time }}</span>
-                            </div>
-                            <h3>
-                                <a href="#">{{post.title}}</a>
-                            </h3>
-                            <p>{{ post.detail }} </p>
-                           <!-- <div class="social media">
-                                <a href="{{ post.twitter }}" class="ss-icon ss-social-circle">Twitter</a>
-                                <a href="{{ post.facebook }}" class="ss-icon ss-social-circle">Facebook</a>
-                                <a href="mailto:{{ post.email }}" class="ss-icon ss-social-circle">Email</a>
-                            </div>-->
-                            
-                            <a href=" {{ post.link }}" class="button shadow">More details</a>
-                      </li> <!-- /event -->
-                  {% endfor %}
-            </ol>
-
 			<div class="more-link">
 				<a class="button expand" href="#">More events</a>
 			</div>
