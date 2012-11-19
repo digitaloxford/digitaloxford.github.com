@@ -49,7 +49,7 @@ layout: layout
 
 		<section class="jobs listings wrapper" id="jobs">
 			<h2 class="section-title">Jobs</h2>
-				<ol class="fourcol">
+				<ol class="fourcol clearfix">
                     {% for post in site.categories.job limit:4 %}
     					<li {% cycle 'class="job-type col"', 'class="job-type col"','class="job-type col"', ' class="job-type col last"' %}>
 
