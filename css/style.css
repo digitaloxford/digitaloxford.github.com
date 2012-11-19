@@ -369,13 +369,6 @@ article {
 	  color: #333;
   }
   
-  .submit {
-	  float: right;
-	  color: #aaa;
-	  background-color: #fff;
-	  margin-bottom: -8px;
-	  font-size: 0.88888888888889em;
-  }
 
 
  /*
@@ -497,7 +490,10 @@ article {
 
 .more-link .button,
 .more-link a:link.button,
-.more-link a:visited {
+.more-link a:visited
+.submit-link .button,
+.submit-link a:link.button,
+.submit-link a:visited {
 	text-transform: uppercase;
 	font-size: 0.88888888888889em;
 	color: #AAA;
