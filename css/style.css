@@ -506,6 +506,8 @@ article {
 .submit-link a:link.button,
 .submit-link a:visited {
 	float: right;
+	padding: 0;
+	background-color: transparent;
 	
 }
 
