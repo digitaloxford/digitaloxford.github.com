@@ -368,6 +368,14 @@ article {
   .event .social a:active {
 	  color: #333;
   }
+  
+  a.submit {
+	  float: right;
+	  color: #aaa;
+	  background-color: #fff;
+	  margin-bottom: -8px;
+	  font-size: 0.88888888888889em;
+  }
 
 
  /*
