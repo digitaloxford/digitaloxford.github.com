@@ -369,7 +369,7 @@ article {
 	  color: #333;
   }
   
-  a.submit {
+  .submit {
 	  float: right;
 	  color: #aaa;
 	  background-color: #fff;
