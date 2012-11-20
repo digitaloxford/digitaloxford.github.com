@@ -3,7 +3,7 @@ layout: post
 
 category: job
 
-role: Tester
+role: Website Tester
 company: White October
 company_url: http://www.whiteoctober.co.uk
 location: Oxford
