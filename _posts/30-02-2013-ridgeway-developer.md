@@ -5,7 +5,7 @@ category: job
 
 role: C# ASP .Net Developer
 company: Ridgeway
-company_url: www.ridgeway.net
+company_url: http://www.ridgeway.net
 location: Witney & London
 closing_date: 30.02.2013
 link: http://www.ridgeway.net/about-ridgeway/c-asp-net-developer-job-vacancy
