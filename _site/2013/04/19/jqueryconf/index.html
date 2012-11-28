@@ -5,12 +5,17 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script src="http://code.jquery.com/jquery-1.8.1.min.js" type="text/javascript"></script>
 
-  <title>Digital Oxford</title>
-
+  <title>Digital Oxford | Digital Jobs, Events & Networking in Oxfordshire.</title>
+  <meta name="description" content="Digital Oxford connects creative design & technology in the Oxfordshire area. Find out about events and jobs in Oxfordshire for anybody interested in the web." />
+  <meta property="og:url" content="http://www.digitaloxford.com/" />
+  <meta property="og:title" content="Digital Oxford" /> 
+  <meta property="og:description" content="Digital Oxford connects creative design & technology in the Oxfordshire area. Find out about events and jobs in Oxfordshire for anybody interested in the web." /> 
+  <meta property="og:image" content="digital-oxford-logo.png" />
+  
   <!-- Everyone gets this one -->
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-  
-  
+
+
   <link href="webfonts/ss-social.css" rel="stylesheet" />
 
   <!-- Only screens larger than 480px get this one -->
@@ -23,7 +28,7 @@
   <link rel="stylesheet" href="css/high-dpi.css" type="text/css" media="only screen and (-webkit-min-device-pixel-ratio: 1.5)">
 
  <link rel="icon" type="image/png" href="favicon.png" />
- 
+
  <link rel="apple-touch-icon-precomposed" type="image/png" href="apple-touch-icon-precomposed.png" />
  <link rel="apple-touch-icon-precomposed" type="image/png" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />
  <link rel="apple-touch-icon-precomposed" type="image/png" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png" />
@@ -39,12 +44,15 @@
 	<link rel="stylesheet" type="text/css" href="css/large.css" />
   	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  
+
    <!--[if lte IE 9]>
   	<link rel="stylesheet" type="text/css" href="css/ie.css" />
   <![endif]-->
-  
+
   <script>
+    //minimodernizr
+    document.getElementsByTagName('html')[0].className = 'js';
+
     $(document).ready(function(){
     var artheight = '1100px';
 
@@ -67,7 +75,21 @@
 
 
   </script>
+  <script type="text/javascript">
+  
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36430600-1']);
+  _gaq.push(['_setDomainName', 'digitaloxford.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
 </head>
 
 <body>
@@ -89,16 +111,16 @@
     <div class="artwork-teaser" id="artwork-teaser">
       <p>Background by</p>
       <h2>
-          <a href="#">Sarah Plant</a>
+          <a href="#">Howard Stanbury</a>
       </h2>
       <a href="" class="button artwork-button toggle-art">Show</a>
      </div>
 
       <div class="artwork-panel" id="artwork-panel">
         <p>Background by</p>
-        <h2>Sarah Plant</h2>
-        <p>Designer at @torchbox & Co-creator at @fermentzine</p>
-        <a href="#">http://plantsarah.com</a>
+        <h2>Howard Stanbury</h2>
+        <p>Photograph &copy; Howard Stanbury</p>
+        <a href="http://stanbury.org/">http://stanbury.org/</a>
         <a href="#" class="toggle-art close-panel">&times;</a>
       </div>
 
@@ -123,7 +145,8 @@
           <div class="social-links">
             <ul>
               <li><a href="http://www.twitter.com/digitaloxford" class="ss-icon ss-social-circle">Twitter</a></li>
-              <li><a href="mailto:info@digitaloxford.co.uk" class="ss-icon ss-social-circle">Email</a></li>
+              <li><a href="http://www.linkedin.com/groups?gid=4731680" class="ss-icon ss-social-circle">Linkedin</a></li>
+              <li><a href="mailto:info@digitaloxford.com" class="ss-icon ss-social-circle">Email</a></li>
             </ul>
           </div>
           <div class="credit">

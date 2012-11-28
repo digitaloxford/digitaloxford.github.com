@@ -86,14 +86,17 @@ section {
 	text-align: center;
 }
 
-
-
 .fourcol .col {
 	 margin-right: 7%;
 	 width: 46.5%;
 	 float: left;
 	 margin-bottom: 2em;
  }
+
+.fourcol .first,
+.threecol .first  {
+	clear:left;
+}
 
 .fourcol .col:nth-child(even) {
 	margin-right: 0;
@@ -336,7 +339,7 @@ article {
  	font-size: 1.444444444em;
  	padding-bottom: 0.384615385em;
  }
- 
+
 
 
 /*
@@ -368,6 +371,7 @@ article {
   .event .social a:active {
 	  color: #333;
   }
+
 
 
  /*
@@ -489,13 +493,26 @@ article {
 
 .more-link .button,
 .more-link a:link.button,
-.more-link a:visited {
+.more-link a:visited,
+.submit-link .button,
+.submit-link a:link.button,
+.submit-link a:visited {
 	text-transform: uppercase;
 	font-size: 0.88888888888889em;
 	color: #AAA;
 	text-decoration: none;
 	padding: 0 2em;
 	background: #fff;
+}
+
+.submit-link .button,
+.submit-link a:link.button,
+.submit-link a:visited {
+	float: right;
+	padding: 0;
+	background-color: transparent;
+	clear: both;
+
 }
 
 .jobs .more-link a.button {

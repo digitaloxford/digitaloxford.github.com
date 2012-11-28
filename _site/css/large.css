@@ -28,7 +28,7 @@ header a {
  	margin-right: 3.6%;
  	float: left;
  }
- 
+
  .fourcol .col:nth-child(even) {
  	margin-right: 3.6%;
  	float: left;
@@ -51,7 +51,7 @@ header a {
 	 width: 22.3%;
 	 margin-right: 3.6%;
  }
- 
+
 .threecol .col:last-child,
  .fourcol .col:last-child,
  .threecol .col.last,

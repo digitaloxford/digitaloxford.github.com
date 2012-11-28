@@ -5,12 +5,17 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script src="http://code.jquery.com/jquery-1.8.1.min.js" type="text/javascript"></script>
 
-  <title>Digital Oxford</title>
-
+  <title>Digital Oxford | Digital Jobs, Events & Networking in Oxfordshire.</title>
+  <meta name="description" content="Digital Oxford connects creative design & technology in the Oxfordshire area. Find out about events and jobs in Oxfordshire for anybody interested in the web." />
+  <meta property="og:url" content="http://www.digitaloxford.com/" />
+  <meta property="og:title" content="Digital Oxford" /> 
+  <meta property="og:description" content="Digital Oxford connects creative design & technology in the Oxfordshire area. Find out about events and jobs in Oxfordshire for anybody interested in the web." /> 
+  <meta property="og:image" content="digital-oxford-logo.png" />
+  
   <!-- Everyone gets this one -->
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-  
-  
+
+
   <link href="webfonts/ss-social.css" rel="stylesheet" />
 
   <!-- Only screens larger than 480px get this one -->
@@ -23,7 +28,7 @@
   <link rel="stylesheet" href="css/high-dpi.css" type="text/css" media="only screen and (-webkit-min-device-pixel-ratio: 1.5)">
 
  <link rel="icon" type="image/png" href="favicon.png" />
- 
+
  <link rel="apple-touch-icon-precomposed" type="image/png" href="apple-touch-icon-precomposed.png" />
  <link rel="apple-touch-icon-precomposed" type="image/png" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />
  <link rel="apple-touch-icon-precomposed" type="image/png" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png" />
@@ -39,12 +44,15 @@
 	<link rel="stylesheet" type="text/css" href="css/large.css" />
   	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  
+
    <!--[if lte IE 9]>
   	<link rel="stylesheet" type="text/css" href="css/ie.css" />
   <![endif]-->
-  
+
   <script>
+    //minimodernizr
+    document.getElementsByTagName('html')[0].className = 'js';
+
     $(document).ready(function(){
     var artheight = '1100px';
 
@@ -67,7 +75,21 @@
 
 
   </script>
+  <script type="text/javascript">
+  
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36430600-1']);
+  _gaq.push(['_setDomainName', 'digitaloxford.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
 </head>
 
 <body>
@@ -89,16 +111,16 @@
     <div class="artwork-teaser" id="artwork-teaser">
       <p>Background by</p>
       <h2>
-          <a href="#">Sarah Plant</a>
+          <a href="#">Howard Stanbury</a>
       </h2>
       <a href="" class="button artwork-button toggle-art">Show</a>
      </div>
 
       <div class="artwork-panel" id="artwork-panel">
         <p>Background by</p>
-        <h2>Sarah Plant</h2>
-        <p>Designer at @torchbox & Co-creator at @fermentzine</p>
-        <a href="#">http://plantsarah.com</a>
+        <h2>Howard Stanbury</h2>
+        <p>Photograph &copy; Howard Stanbury</p>
+        <a href="http://stanbury.org/">http://stanbury.org/</a>
         <a href="#" class="toggle-art close-panel">&times;</a>
       </div>
 
@@ -107,63 +129,72 @@
   <article id="main-article"class="clearfix">
 
             <section class="tagline wrapper clearfix">
-    		<h2>Digital Oxford connects creative <i>design</i> &amp; <i>technology</i> in the <i>Oxfordshire</i> area. We sponsor <i>events</i> and advertise <i>jobs</i> for anybody interested in the <i>web</i>.</h2>
+    		<h2>Digital Oxford connects creative <i>design</i> &amp; <i>technology</i> in the <i>Oxfordshire</i> area. <br />We promote <i>events</i> and <i>jobs</i> for anybody interested in the <i>web</i>.</h2>
     	</section>
 
         <section class="events listings wrapper" id="events">
 			<h2 class="section-title">Events</h2>
 
             <ol class="threecol">
-              <!-- If type = event.. -->
+              <!-- If type = event.. - correct data order -->
               
+
+                  
+
+                  <li class="event-type col first">
+                    <div class="event">
+                        <div class="datetime">
+                            <span class="date">29.11.2012</span>
+                            <span class="time">7:30-10:30pm</span>
+                        </div>
+                        <h3>
+                            <a href=" http://witneyfreelancers.co.uk" >Witney Freelancers Meetup</a>
+                        </h3>
+
+                        <p>An informal meetup group for anyone in West Oxfordshire interested in web & design. Held on the last Thursday of each month in one of Witney's many great pubs. There's no agenda, and you don't have to be a freelancer to qualify - it's just about meeting new faces and talking about whatever interests you.</p>
+                       <!-- <div class="social media">
+                            <a href="https://twitter.com/witneymeets" class="ss-icon ss-social-circle">Twitter</a>
+                            <a href="" class="ss-icon ss-social-circle">Facebook</a>
+                            <a href="mailto:ed@blucube.net" class="ss-icon ss-social-circle">Email</a>
+                        </div>-->
+                         <a href=" http://witneyfreelancers.co.uk" class="button shadow">More details</a>
+                  </li> <!-- /event -->
+              
+
+                  
+
                   <li class="event-type col">
                     <div class="event">
                         <div class="datetime">
-                            <span class="date">19.04.2013</span>
-                            <span class="time">8:30am-5:30pm</span>
+                            <span class="date">12.01.2013</span>
+                            <span class="time">10am-3pm</span>
                         </div>
                         <h3>
-                            <a href="#">jQuery UK 2013</a>
+                            <a href=" http://pressingconcerns.penandpixeldesign.com/" >Pressing Concerns printing workshop</a>
                         </h3>
-                        
-                        <p>jQuery UK is back in Oxford after a successful debut 2012. Bigger venue, same single track format.</p>
+
+                        <p>A small get together to explore letterpress and print in East Oxford.</p>
                        <!-- <div class="social media">
-                            <a href="http://twitter.com/jquk" class="ss-icon ss-social-circle">Twitter</a>
-                            <a href="" class="ss-icon ss-social-circle">Facebook</a>
-                            <a href="mailto:john@whiteoctober.co.uk" class="ss-icon ss-social-circle">Email</a>
+                            <a href="http://twitter.com/josnow" class="ss-icon ss-social-circle">Twitter</a>
+                            <a href="http://facebook.com" class="ss-icon ss-social-circle">Facebook</a>
+                            <a href="mailto:jo@jolankester.co.uk" class="ss-icon ss-social-circle">Email</a>
                         </div>-->
-                         <a href=" http://events.jquery.org/2013/uk" class="button shadow">More details</a>
+                         <a href=" http://pressingconcerns.penandpixeldesign.com/" class="button shadow">More details</a>
                   </li> <!-- /event -->
               
-                  <li class="event-type col">
-                    <div class="event">
-                        <div class="datetime">
-                            <span class="date">21.02.2013</span>
-                            <span class="time">7:30-8:30pm</span>
-                        </div>
-                        <h3>
-                            <a href="#">UX Oxford</a>
-                        </h3>
-                        
-                        <p>Monthly talks on User Experience in Oxford. Every month we invite a speaker to come and talk about their experience using UX principles in their design projects.</p>
-                       <!-- <div class="social media">
-                            <a href="http://twitter.com/uxoxford" class="ss-icon ss-social-circle">Twitter</a>
-                            <a href="" class="ss-icon ss-social-circle">Facebook</a>
-                            <a href="mailto:marianamota@gmail.com" class="ss-icon ss-social-circle">Email</a>
-                        </div>-->
-                         <a href=" http://uxoxford.co.uk/" class="button shadow">More details</a>
-                  </li> <!-- /event -->
-              
-                  <li  class="event-type col last">
+
+                  
+
+                  <li class="event-type col last">
                     <div class="event">
                         <div class="datetime">
                             <span class="date">17.01.2013</span>
                             <span class="time">7-9pm</span>
                         </div>
                         <h3>
-                            <a href="#">JS Oxford</a>
+                            <a href=" http://lanyrd.com/2013/jsoxford-january/" >JS Oxford</a>
                         </h3>
-                        
+
                         <p>JS Oxford is a monthly event with a couple of quick demos, some hack time and pub. So if you've got a project you want to work on or a problem you need help solving, then come join us!</p>
                        <!-- <div class="social media">
                             <a href="http://twitter.com/uxoxford" class="ss-icon ss-social-circle">Twitter</a>
@@ -173,50 +204,58 @@
                          <a href=" http://lanyrd.com/2013/jsoxford-january/" class="button shadow">More details</a>
                   </li> <!-- /event -->
               
+
+                  
             </ol>
 
             <ol class="threecol hidden-post">
-                
-                    <li class="event-type col">
-                        <div class="event">
-                            <div class="datetime">
-                                <span class="date">19.09.2012</span>
-                                <span class="time">7:30-11pm</span>
-                            </div>
-                            <h3>
-                                <a href="#">Oxford Geek Night</a>
-                            </h3>
-                            <p>Oxford Geek Nights offer a chance for web developers and designers in the local area to get together, share their skills and talk about new ideas, techniques and technologies. </p>
-                           <!-- <div class="social media">
-                                <a href="http://twitter.com" class="ss-icon ss-social-circle">Twitter</a>
-                                <a href="http://facebook.com" class="ss-icon ss-social-circle">Facebook</a>
-                                <a href="mailto:joebloggs@web.com" class="ss-icon ss-social-circle">Email</a>
-                            </div>-->
-                            
-                            <a href=" http://lanyrd.com/2012/oxford-geek-night-28/" class="button shadow">More details</a>
-                      </li> <!-- /event -->
                   
-                    <li class="event-type col">
-                        <div class="event">
-                            <div class="datetime">
-                                <span class="date">13.09.2012</span>
-                                <span class="time">9:30am-5:30pm</span>
-                            </div>
-                            <h3>
-                                <a href="#">Modern Art Oxford</a>
-                            </h3>
-                            <p>Double Bill - Get Digital 50:50 & Playful Arrangements A special event to showcase work made by young people at Modern Art Oxford. </p>
-                           <!-- <div class="social media">
-                                <a href="http://twitter.com" class="ss-icon ss-social-circle">Twitter</a>
-                                <a href="http://facebook.com" class="ss-icon ss-social-circle">Facebook</a>
-                                <a href="mailto:joebloggs@web.com" class="ss-icon ss-social-circle">Email</a>
-                            </div>-->
-                            
-                            <a href=" http://www.ofvm.org/summerscreen/" class="button shadow">More details</a>
-                      </li> <!-- /event -->
-                  
-            </ol>
 
+                  <li class="event-type col first">
+                    <div class="event">
+                        <div class="datetime">
+                            <span class="date">21.02.2013</span>
+                            <span class="time">7:30-8:30pm</span>
+                        </div>
+                        <h3>
+                            <a href=" http://uxoxford.co.uk/" >UX Oxford</a>
+                        </h3>
+
+                        <p>Monthly talks on User Experience in Oxford. Every month we invite a speaker to come and talk about their experience using UX principles in their design projects.</p>
+                       <!-- <div class="social media">
+                            <a href="http://twitter.com/uxoxford" class="ss-icon ss-social-circle">Twitter</a>
+                            <a href="" class="ss-icon ss-social-circle">Facebook</a>
+                            <a href="mailto:marianamota@gmail.com" class="ss-icon ss-social-circle">Email</a>
+                        </div>-->
+                         <a href=" http://uxoxford.co.uk/" class="button shadow">More details</a>
+                  </li> <!-- /event -->
+              
+
+                  
+
+                  <li class="event-type col">
+                    <div class="event">
+                        <div class="datetime">
+                            <span class="date">19.04.2013</span>
+                            <span class="time">8:30am-5:30pm</span>
+                        </div>
+                        <h3>
+                            <a href=" http://events.jquery.org/2013/uk" >jQuery UK 2013</a>
+                        </h3>
+
+                        <p>jQuery UK is back in Oxford after a successful debut 2012. Bigger venue, same single track format.</p>
+                       <!-- <div class="social media">
+                            <a href="http://twitter.com/jquk" class="ss-icon ss-social-circle">Twitter</a>
+                            <a href="" class="ss-icon ss-social-circle">Facebook</a>
+                            <a href="mailto:john@whiteoctober.co.uk" class="ss-icon ss-social-circle">Email</a>
+                        </div>-->
+                         <a href=" http://events.jquery.org/2013/uk" class="button shadow">More details</a>
+                  </li> <!-- /event -->
+              
+            </ol>
+            <div class="submit-link">
+            	<a class="button submit" href="http://digitaloxford.wufoo.com/forms/submit-your-event-to-digital-oxford/">Submit event</a>
+            </div>
 			<div class="more-link">
 				<a class="button expand" href="#">More events</a>
 			</div>
@@ -224,107 +263,188 @@
 
 		<section class="jobs listings wrapper" id="jobs">
 			<h2 class="section-title">Jobs</h2>
-				<ol class="fourcol">
-                    
-    					<li class="job-type col">
+			
+			<ol class="fourcol clearfix">
+              <!-- If type = job.. - correct data order -->
+              
+              		
+              	   
+              		
+		    	  <li class="job-type col">
+		    	    <div class="job">
+		    		    <h3>
+		    		      <a href="http://www.oxford-web.co.uk/jobs">Analyst Programmer</a>
+		    			</h3>
+		    			<span class="company">
+		    			  <a href="http://www.oxford-web.co.uk/">Oxford Web</a>
+		    			</span>
+						<span class="location">Oxford</span>
+							<p>We are currently looking for both full-time and freelance software developers who can hit the ground running with MySQL, PHP, and of course HTML and CSS. The right candidate will have significant PHP experience and a strong interest in other programming languages. Working within a small team of 6, the developer will be working on a wide range of new and existing websites.&hellip;</p>
+							<div class="closingdate">
+								<span class="closing">closing date</span>
+								<span class=" datetime">30.11.2012</span>
+							</div>
+						<a href="http://www.oxford-web.co.uk/jobs" class="button shadow">More details</a>
+					</div>
+				</li>
+		        
+              		
+              	   
+              		
+		    	  <li class="job-type col">
+		    	    <div class="job">
+		    		    <h3>
+		    		      <a href="http://jobview.monster.co.uk/Software-developer-PHP-Job-Oxford-South-East-Southern-UK-116049708.aspx">PHP Software Developer</a>
+		    			</h3>
+		    			<span class="company">
+		    			  <a href="http://www.carrierweb.com">Carrierweb</a>
+		    			</span>
+						<span class="location">Oxford</span>
+							<p>We want a PHP developer to tidy up and extend a legacy SaaS application. Lots of chances to improve things and delete old broken code. Our offices are really close to the city centre. Email jobs.uk@carrierweb.com and we can meet for a chat.&hellip;</p>
+							<div class="closingdate">
+								<span class="closing">closing date</span>
+								<span class=" datetime">14.12.2012</span>
+							</div>
+						<a href="http://jobview.monster.co.uk/Software-developer-PHP-Job-Oxford-South-East-Southern-UK-116049708.aspx" class="button shadow">More details</a>
+					</div>
+				</li>
+		        
+              		
+              	   
+              		
+		    	  <li class="job-type col">
+		    	    <div class="job">
+		    		    <h3>
+		    		      <a href="http://www.incuna.com/jobs/designer/">Designer</a>
+		    			</h3>
+		    			<span class="company">
+		    			  <a href="http://www.incuna.com/">Incuna</a>
+		    			</span>
+						<span class="location">Oxford</span>
+							<p>We need an enthusiastic "can-do" designer who is happiest when designing and passionate about user interfaces and great user experience.&hellip;</p>
+							<div class="closingdate">
+								<span class="closing">closing date</span>
+								<span class=" datetime">16.12.2012</span>
+							</div>
+						<a href="http://www.incuna.com/jobs/designer/" class="button shadow">More details</a>
+					</div>
+				</li>
+		        
+              		
+              	   
+              		
+		    	  <li class="job-type col last">
+		    	    <div class="job">
+		    		    <h3>
+		    		      <a href="http://torchbox.theresumator.com/apply/DLdejd/Junior-Python-Developer.html">Junior Developer</a>
+		    			</h3>
+		    			<span class="company">
+		    			  <a href="http://www.torchbox.com/">Torchbox</a>
+		    			</span>
+						<span class="location">Oxford</span>
+							<p>We're looking for a junior Python / Django developer to join our friendly team, building a very wide range of bespoke apps for our lovely clients.&hellip;</p>
+							<div class="closingdate">
+								<span class="closing">closing date</span>
+								<span class=" datetime">30.12.2012</span>
+							</div>
+						<a href="http://torchbox.theresumator.com/apply/DLdejd/Junior-Python-Developer.html" class="button shadow">More details</a>
+					</div>
+				</li>
+		        
+              		
+              	  
+			</ol>
+            
+            <ol class="fourcol hidden-post">
+            	   
+              		
+		    	  <li class="job-type col">
+		    	    <div class="job">
+		    		    <h3>
+		    		      <a href="http://www.whiteoctober.co.uk/contact-_3/">Project manager</a>
+		    			</h3>
+		    			<span class="company">
+		    			  <a href="http://www.whiteoctober.co.uk">White October</a>
+		    			</span>
+						<span class="location">Oxford</span>
+							<p>The primary focus of the Project Manager role will be to deliver multiple web development projects ranging from 2 months to 2 years in duration, working closely with our clients and production team to ensure successful delivery&hellip;</p>
+							<div class="closingdate">
+								<span class="closing">closing date</span>
+								<span class=" datetime">01.02.2013</span>
+							</div>
+						<a href="http://www.whiteoctober.co.uk/contact-_3/" class="button shadow">More details</a>
+					</div>
+				</li>
+		        
+              		
+              	   
+              		
+		    	  <li class="job-type col">
+		    	    <div class="job">
+		    		    <h3>
+		    		      <a href="http://www.whiteoctober.co.uk/contact-_3/">Test Analyst</a>
+		    			</h3>
+		    			<span class="company">
+		    			  <a href="http://www.whiteoctober.co.uk">White October</a>
+		    			</span>
+						<span class="location">Oxford</span>
+							<p>We are looking for a Test Analyst to help ensure that everything that goes out of the door meets our exacting standards. You will bring a strong understanding of web testing / acceptance testing on releases and cross browser testing on all major browsers and platforms, including mobile.&hellip;</p>
+							<div class="closingdate">
+								<span class="closing">closing date</span>
+								<span class=" datetime">02.02.2013</span>
+							</div>
+						<a href="http://www.whiteoctober.co.uk/contact-_3/" class="button shadow">More details</a>
+					</div>
+				</li>
+		        
+              		
+              	   
+              		
+		    	  <li class="job-type col">
+		    	    <div class="job">
+		    		    <h3>
+		    		      <a href="http://www.ridgeway.net/about-ridgeway/c-asp-net-developer-job-vacancy">C# ASP .Net Developer</a>
+		    			</h3>
+		    			<span class="company">
+		    			  <a href="http://www.ridgeway.net">Ridgeway</a>
+		    			</span>
+						<span class="location">Witney & London</span>
+							<p>Are you an agency experienced C# ASP .Net Developer? Looking for a new challenge to enhance your development skills delivering both creative and technically excellent web solutions? Take a look at the full job details or email recruitment@ridgeway.net&hellip;</p>
+							<div class="closingdate">
+								<span class="closing">closing date</span>
+								<span class=" datetime">30.02.2013</span>
+							</div>
+						<a href="http://www.ridgeway.net/about-ridgeway/c-asp-net-developer-job-vacancy" class="button shadow">More details</a>
+					</div>
+				</li>
+		        
+		      </ol>
 
-    						<div class="job">
-    							<h3>
-    								<a href="http://www.torchbox.co.uk">Web Developer</a>
-    							</h3>
-    							<span class="company">
-    								<a href="http://www.torchbox.co.uk">Torchbox</a>
-    							</span>
-    							<span class="location">Oxfordshire</span>
-    							<p>We are looking for a talented web developer to join our innovative web development agency. You need to be a solid developer with a passion for new web technology&hellip;</p>
-    								<div class="closingdate">
-    								<span class="closing">closing date</span>
-    								 <span class=" datetime">12.11.2012</span>
-    							</div>
-    							<a href="http://www.torchbox.co.uk" class="button shadow">More details</a>
-    						</div>
-    					</li>
-                    
-    					<li class="job-type col">
-
-    						<div class="job">
-    							<h3>
-    								<a href="http://www.whiteoctober.co.uk/careers-_41/">Web Designer</a>
-    							</h3>
-    							<span class="company">
-    								<a href="http://www.whiteoctober.co.uk">White October</a>
-    							</span>
-    							<span class="location">Oxford</span>
-    							<p>We are looking for a talented web developer to join our innovative web development agency. You need to be a solid developer with a passion for new web technology&hellip;</p>
-    								<div class="closingdate">
-    								<span class="closing">closing date</span>
-    								 <span class=" datetime">12.11.2012</span>
-    							</div>
-    							<a href="http://www.whiteoctober.co.uk/careers-_41/" class="button shadow">More details</a>
-    						</div>
-    					</li>
-                    
-    					<li class="job-type col">
-
-    						<div class="job">
-    							<h3>
-    								<a href="http://www.torchbox.co.uk">PHP Developer</a>
-    							</h3>
-    							<span class="company">
-    								<a href="http://www.torchbox.co.uk">Torchbox</a>
-    							</span>
-    							<span class="location">London</span>
-    							<p>We want talented PHP developers to join a steadily growing Drupal team. You want to work for NGOs, enjoy our amazing office environment, and write PHP to be proud of&hellip;</p>
-    								<div class="closingdate">
-    								<span class="closing">closing date</span>
-    								 <span class=" datetime">15.11.2012</span>
-    							</div>
-    							<a href="http://www.torchbox.co.uk" class="button shadow">More details</a>
-    						</div>
-    					</li>
-                    
-    					<li  class="job-type col last">
-
-    						<div class="job">
-    							<h3>
-    								<a href="http://www.oxfam.co.uk">Digital Change Manager</a>
-    							</h3>
-    							<span class="company">
-    								<a href="http://www.oxfam.co.uk">Oxfam</a>
-    							</span>
-    							<span class="location">Oxford</span>
-    							<p>Oxfam needs a Digital Change Manager to define, implement and run the change management processes for the new Oxfam GB digital estate&hellip;</p>
-    								<div class="closingdate">
-    								<span class="closing">closing date</span>
-    								 <span class=" datetime">18.11.2012</span>
-    							</div>
-    							<a href="http://www.oxfam.co.uk" class="button shadow">More details</a>
-    						</div>
-    					</li>
-                    
-                </ol>
-
-                <!-- Hidden jobs below - We loop over the jobs starting where we left off -->
-                <ol class="fourcol hidden-post">
-                    
-                </ol>
-
+                <div class="submit-link">
+            		<a class="button submit" href="http://digitaloxford.wufoo.com/forms/submit-your-job-advert-to-digital-oxford/">Submit job</a>
+            	</div>
 				<div class="more-link">
 					<a class="button expand" href="#">More jobs</a>
 				</div>
 
-		</section>
-        <section class="members wrapper clearfix" id="members">
+		</section>        
+		
+		<section class="members wrapper clearfix" id="members">
         	<h2 class="section-title">Members</h2>
         		<div class="member-logos fourcol clearfix">
         			<a class="col" href="http://www.torchbox.com"><img src="img/torchbox-logo.png" alt="Torchbox"/></a>
         			<a class="col" href="http://www.whiteoctober.co.uk"><img src="img/whiteoctober-logo.png" alt="White October"/></a>
         			<a class="col tall" href="http://www.roost-online.co.uk/"><img src="img/roost-logo.png" alt="Roost"/></a>
-        			<a class="col" href="#"></a>
+        			<a class="col tall" href="http://www.incuna.com/"><img src="img/incuna-logo.png" alt="Incuna"/></a>
+        		</div>
+        		<div class="member-logos fourcol clearfix">
+	        		<a class="col tall" href="http://www.oxfam.org.uk/"><img src="img/oxfam-logo.png" alt="Oxfam"/></a>
+	        		<a class="col tall" href="http://www.ridgeway.net"><img src="img/ridgeway-logo.png" alt="Ridgeway"/></a>
+	        		<a class="col tall" href="http://www.oxford-web.co.uk/"><img src="img/oxfordweb-logo.png" alt="Oxford Web"/></a>
         		</div>
         		<div class="more-link become">
                     <!-- Link to mailchimp form -->
-					<a class="button" href="http://eepurl.com/qHH9P">Become a member</a>
+					<a class="button" href="http://eepurl.com/r3hRX">Become a member</a>
 				</div>
         </section>
 
@@ -337,7 +457,8 @@
           <div class="social-links">
             <ul>
               <li><a href="http://www.twitter.com/digitaloxford" class="ss-icon ss-social-circle">Twitter</a></li>
-              <li><a href="mailto:info@digitaloxford.co.uk" class="ss-icon ss-social-circle">Email</a></li>
+              <li><a href="http://www.linkedin.com/groups?gid=4731680" class="ss-icon ss-social-circle">Linkedin</a></li>
+              <li><a href="mailto:info@digitaloxford.com" class="ss-icon ss-social-circle">Email</a></li>
             </ul>
           </div>
           <div class="credit">
