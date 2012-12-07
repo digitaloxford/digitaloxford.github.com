@@ -49,18 +49,18 @@ layout: layout
 
 		<section class="jobs listings wrapper" id="jobs">
 			<h2 class="section-title">Jobs</h2>
-			
+
 			<ol class="fourcol clearfix">
               <!-- If type = job.. - correct data order -->
               {% for post in site.categories.job reversed %}
-              		
+
               	  {% if forloop.index == 5 %}
 			</ol>
-            
+
             <ol class="fourcol hidden-post">
-            	  {% endif %} 
-              		
-		    	  <li class="job-type col{% cycle '','','', ' last' %}">
+            	  {% endif %}
+
+		    	  <li class="job-type col{% cycle ' first','','', ' last' %}">
 		    	    <div class="job">
 		    		    <h3>
 		    		      <a href="{{ post.link }}">{{ post.role}}</a>
@@ -87,8 +87,8 @@ layout: layout
 					<a class="button expand" href="#">More jobs</a>
 				</div>
 
-		</section>        
-		
+		</section>
+
 		<section class="members wrapper clearfix" id="members">
         	<h2 class="section-title">Members</h2>
         		<div class="member-logos fourcol clearfix">
