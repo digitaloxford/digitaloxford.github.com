@@ -3,12 +3,12 @@ layout: post
 
 category: job
 
-role: Project manager
+role: Digital Project Manager
 company: White October
 company_url: http://www.whiteoctober.co.uk
 location: Oxford
 closing_date: 01.02.2013
-link: http://www.whiteoctober.co.uk/contact-_3/
-detail: The primary focus of the Project Manager role will be to deliver multiple web development projects ranging from 2 months to 2 years in duration, working closely with our clients and production team to ensure successful delivery
+link: http://www.whiteoctober.co.uk/projectmanager.html
+detail: We are looking for a digital project manager to join our growing team. Reporting directly to the Head of Production you'll be responsible for delivering your own portfolio of interesting digital projects.
 
 ---
