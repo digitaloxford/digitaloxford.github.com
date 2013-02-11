@@ -3,7 +3,7 @@ layout: post
 
 category: event
 
-title: Oxford Inspires
+title: Oxford Inspires conference
 date: 02.03.2013
 time: 10am-6pm
 link: http://oxfordinspires.com/
