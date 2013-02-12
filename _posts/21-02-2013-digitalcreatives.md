@@ -3,7 +3,7 @@ layout: post
 
 category: event
 
-title: John Cole from Adobe: HTML5 and Flash
+title: John Cole from Adobe - HTML5 and Flash
 date: 21.02.2013
 time: 7:30-9:30pm
 link: http://www.meetup.com/Digital-Creatives-Oxford/events/101332182/
