@@ -2,3 +2,6 @@ auto: true
 markdown: rdiscount
 permalink: /:year/:month/:day/:title
 rdiscount extensions: [smart]
+name: Digital Oxford
+description: Digital Oxford connects creative design and technology in the Oxfordshire area. Find out about events and jobs in Oxfordshire.
+url: http://www.digitaloxford.com/
