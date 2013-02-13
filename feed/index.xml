@@ -16,11 +16,15 @@ layout: nil
 
  {% for post in site.categories reversed %}
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="http://www.digitaloxford.com{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://digitaloxford.com{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+  <title>{{ post.title }}</title>
+  <link href="http://www.digitaloxford.com"/>
+  <div class="datetime">
+    <span class="date">{{ post.date | date: "%d.%m.%Y" }}</span>
+    <span class="time">{{ post.time }}</span>
+  </div>
+  <p>{{ post.detail }}</p>
+  <updated>{{ post.date | date_to_xmlschema }}</updated>
+  <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
  
