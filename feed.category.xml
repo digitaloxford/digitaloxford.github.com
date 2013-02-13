@@ -6,7 +6,7 @@
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>jekyll-rss-feeds/feed.xml at master · snaptortoise/jekyll-rss-feeds</title>
+        <title>jekyll-rss-feeds/feed.category.xml at master · snaptortoise/jekyll-rss-feeds</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-114.png" />
@@ -22,7 +22,7 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
     <meta content="authenticity_token" name="csrf-param" />
-    <meta content="d8LVNlfucblu/BULrvR8uHD/ZYXNxt9T0uq+T0SB/Xk=" name="csrf-token" />
+<meta content="d8LVNlfucblu/BULrvR8uHD/ZYXNxt9T0uq+T0SB/Xk=" name="csrf-token" />
 
     <link href="https://a248.e.akamai.net/assets.github.com/assets/github-36cbbb2da0729303b33aec6a1ea3f1ecbf82ba8b.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="https://a248.e.akamai.net/assets.github.com/assets/github2-d5e12829285eae7b68bec95a38a9a3c5bca66730.css" media="screen" rel="stylesheet" type="text/css" />
@@ -33,7 +33,7 @@
       <script src="https://a248.e.akamai.net/assets.github.com/assets/github-e41d817dda98ff08639817c846e0039f986f4c03.js" type="text/javascript"></script>
       
 
-      <link rel='permalink' href='/snaptortoise/jekyll-rss-feeds/blob/da295ef2fb36f02c1e85326810ee7f5ae8db3378/feed.xml'>
+        <link rel='permalink' href='/snaptortoise/jekyll-rss-feeds/blob/da295ef2fb36f02c1e85326810ee7f5ae8db3378/feed.category.xml'>
     <meta property="og:title" content="jekyll-rss-feeds"/>
     <meta property="og:type" content="githubog:gitrepository"/>
     <meta property="og:url" content="https://github.com/snaptortoise/jekyll-rss-feeds"/>
@@ -46,7 +46,7 @@
 
     <meta name="description" content="jekyll-rss-feeds - Templates for rendering RSS feeds for your Jekyll blog" />
 
-    <link href="https://github.com/snaptortoise/jekyll-rss-feeds/commits/master.atom" rel="alternate" title="Recent Commits to jekyll-rss-feeds:master" type="application/atom+xml" />
+  <link href="https://github.com/snaptortoise/jekyll-rss-feeds/commits/master.atom" rel="alternate" title="Recent Commits to jekyll-rss-feeds:master" type="application/atom+xml" />
 
   </head>
 
@@ -322,7 +322,7 @@
 
               <div class="select-menu-item js-navigation-item js-navigation-target selected">
                 <span class="select-menu-checkmark mini-icon mini-icon-confirm"></span>
-                <a href="/snaptortoise/jekyll-rss-feeds/blob/master/feed.xml" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="master" rel="nofollow" title="master">master</a>
+                <a href="/snaptortoise/jekyll-rss-feeds/blob/master/feed.category.xml" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="master" rel="nofollow" title="master">master</a>
               </div> <!-- /.select-menu-item -->
 
               <div class="select-menu-no-results js-not-filterable">Nothing to show</div>
@@ -363,8 +363,8 @@
           
 
 
-<!-- blob contrib key: blob_contributors:v21:9252ddf620cdc7e5f09e5e97cfc7af5b -->
-<!-- blob contrib frag key: views10/v8/blob_contributors:v21:9252ddf620cdc7e5f09e5e97cfc7af5b -->
+<!-- blob contrib key: blob_contributors:v21:eed00c94354d3ef955a696714e5524f4 -->
+<!-- blob contrib frag key: views10/v8/blob_contributors:v21:eed00c94354d3ef955a696714e5524f4 -->
 
 
 <div id="slider">
@@ -373,7 +373,7 @@
       <p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
 
         <div class="breadcrumb">
-          <span class='bold'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/snaptortoise/jekyll-rss-feeds" class="js-slide-to" data-direction="back" itemscope="url"><span itemprop="title">jekyll-rss-feeds</span></a></span></span> / <strong class="final-path">feed.xml</strong> <span class="js-zeroclipboard zeroclipboard-button" data-clipboard-text="feed.xml" data-copied-hint="copied!" title="copy to clipboard"><span class="mini-icon mini-icon-clipboard"></span></span>
+          <span class='bold'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/snaptortoise/jekyll-rss-feeds" class="js-slide-to" data-direction="back" itemscope="url"><span itemprop="title">jekyll-rss-feeds</span></a></span></span> / <strong class="final-path">feed.category.xml</strong> <span class="js-zeroclipboard zeroclipboard-button" data-clipboard-text="feed.category.xml" data-copied-hint="copied!" title="copy to clipboard"><span class="mini-icon mini-icon-clipboard"></span></span>
         </div>
 
       <a href="/snaptortoise/jekyll-rss-feeds/find/master" class="js-slide-to" data-hotkey="t" style="display:none">Show File Finder</a>
@@ -385,14 +385,14 @@
     <span class="author"><a href="/georgemandis" rel="author">georgemandis</a></span>
     <time class="js-relative-date" datetime="2012-09-13T20:16:15-07:00" title="2012-09-13 20:16:15">September 13, 2012</time>
     <div class="commit-title">
-        <a href="/snaptortoise/jekyll-rss-feeds/commit/da295ef2fb36f02c1e85326810ee7f5ae8db3378" class="message">Merge pull request </a><a title="Modify XML to validate with W3C's validator for RSS 2.0" class="issue-link" href="https://github.com/snaptortoise/jekyll-rss-feeds/issues/2">#2</a><a href="/snaptortoise/jekyll-rss-feeds/commit/da295ef2fb36f02c1e85326810ee7f5ae8db3378" class="message"> from Tanner/valid</a>
+        <a href="/snaptortoise/jekyll-rss-feeds/commit/da295ef2fb36f02c1e85326810ee7f5ae8db3378" class="message">Merge pull request</a> <a class="issue-link" href="https://github.com/snaptortoise/jekyll-rss-feeds/issues/2" title="Modify XML to validate with W3C's validator for RSS 2.0">#2</a> <a href="/snaptortoise/jekyll-rss-feeds/commit/da295ef2fb36f02c1e85326810ee7f5ae8db3378" class="message">from Tanner/valid</a>
     </div>
 
     <div class="participation">
       <p class="quickstat"><a href="#blob_contributors_box" rel="facebox"><strong>3</strong> contributors</a></p>
-          <a class="avatar tooltipped downwards" title="georgemandis" href="/snaptortoise/jekyll-rss-feeds/commits/master/feed.xml?author=georgemandis"><img height="20" src="https://secure.gravatar.com/avatar/251e68e988d4c3b1d05022ffd27ac58e?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="20" /></a>
-    <a class="avatar tooltipped downwards" title="Tanner" href="/snaptortoise/jekyll-rss-feeds/commits/master/feed.xml?author=Tanner"><img height="20" src="https://secure.gravatar.com/avatar/56f51512e695ddb9fddc0307f196a259?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="20" /></a>
-    <a class="avatar tooltipped downwards" title="schreifels" href="/snaptortoise/jekyll-rss-feeds/commits/master/feed.xml?author=schreifels"><img height="20" src="https://secure.gravatar.com/avatar/a804de1973a172261e7cbe30d81e49f5?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="20" /></a>
+          <a class="avatar tooltipped downwards" title="georgemandis" href="/snaptortoise/jekyll-rss-feeds/commits/master/feed.category.xml?author=georgemandis"><img height="20" src="https://secure.gravatar.com/avatar/251e68e988d4c3b1d05022ffd27ac58e?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="20" /></a>
+    <a class="avatar tooltipped downwards" title="Tanner" href="/snaptortoise/jekyll-rss-feeds/commits/master/feed.category.xml?author=Tanner"><img height="20" src="https://secure.gravatar.com/avatar/56f51512e695ddb9fddc0307f196a259?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="20" /></a>
+    <a class="avatar tooltipped downwards" title="schreifels" href="/snaptortoise/jekyll-rss-feeds/commits/master/feed.category.xml?author=schreifels"><img height="20" src="https://secure.gravatar.com/avatar/a804de1973a172261e7cbe30d81e49f5?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="20" /></a>
 
 
     </div>
@@ -419,7 +419,7 @@
     </div><!-- ./.frame-meta -->
 
     <div class="frames">
-      <div class="frame" data-permalink-url="/snaptortoise/jekyll-rss-feeds/blob/da295ef2fb36f02c1e85326810ee7f5ae8db3378/feed.xml" data-title="jekyll-rss-feeds/feed.xml at master · snaptortoise/jekyll-rss-feeds · GitHub" data-type="blob">
+      <div class="frame" data-permalink-url="/snaptortoise/jekyll-rss-feeds/blob/da295ef2fb36f02c1e85326810ee7f5ae8db3378/feed.category.xml" data-title="jekyll-rss-feeds/feed.category.xml at master · snaptortoise/jekyll-rss-feeds · GitHub" data-type="blob">
 
         <div id="files" class="bubble">
           <div class="file">
@@ -428,17 +428,17 @@
                 <span class="icon"><b class="mini-icon mini-icon-text-file"></b></span>
                 <span class="mode" title="File Mode">file</span>
                   <span>22 lines (21 sloc)</span>
-                <span>0.711 kb</span>
+                <span>0.769 kb</span>
               </div>
               <div class="actions">
                 <div class="button-group">
                         <a class="minibutton tooltipped leftwards"
                            title="Clicking this button will automatically fork this project so you can edit the file"
-                           href="/snaptortoise/jekyll-rss-feeds/edit/master/feed.xml"
+                           href="/snaptortoise/jekyll-rss-feeds/edit/master/feed.category.xml"
                            data-method="post" rel="nofollow">Edit</a>
-                  <a href="/snaptortoise/jekyll-rss-feeds/raw/master/feed.xml" class="button minibutton " id="raw-url">Raw</a>
-                    <a href="/snaptortoise/jekyll-rss-feeds/blame/master/feed.xml" class="button minibutton ">Blame</a>
-                  <a href="/snaptortoise/jekyll-rss-feeds/commits/master/feed.xml" class="button minibutton " rel="nofollow">History</a>
+                  <a href="/snaptortoise/jekyll-rss-feeds/raw/master/feed.category.xml" class="button minibutton " id="raw-url">Raw</a>
+                    <a href="/snaptortoise/jekyll-rss-feeds/blame/master/feed.category.xml" class="button minibutton ">Blame</a>
+                  <a href="/snaptortoise/jekyll-rss-feeds/commits/master/feed.category.xml" class="button minibutton " rel="nofollow">History</a>
                 </div><!-- /.button-group -->
               </div><!-- /.actions -->
 
@@ -471,7 +471,7 @@
 </pre>
           </td>
           <td width="100%">
-                  <div class="highlight"><pre><div class='line' id='LC1'>---</div><div class='line' id='LC2'>layout: none</div><div class='line' id='LC3'>---</div><div class='line' id='LC4'><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span></div><div class='line' id='LC5'><span class="nt">&lt;rss</span> <span class="na">version=</span><span class="s">&quot;2.0&quot;</span> <span class="na">xmlns:atom=</span><span class="s">&quot;http://www.w3.org/2005/Atom&quot;</span><span class="nt">&gt;</span></div><div class='line' id='LC6'>	<span class="nt">&lt;channel&gt;</span></div><div class='line' id='LC7'>		<span class="nt">&lt;title&gt;</span>{{ site.name }}<span class="nt">&lt;/title&gt;</span></div><div class='line' id='LC8'>		<span class="nt">&lt;description&gt;</span>{{ site.description }}<span class="nt">&lt;/description&gt;</span></div><div class='line' id='LC9'>		<span class="nt">&lt;link&gt;</span>{{ site.url }}<span class="nt">&lt;/link&gt;</span></div><div class='line' id='LC10'>		<span class="nt">&lt;atom:link</span> <span class="na">href=</span><span class="s">&quot;{{ site.url }}/feed.xml&quot;</span> <span class="na">rel=</span><span class="s">&quot;self&quot;</span> <span class="na">type=</span><span class="s">&quot;application/rss+xml&quot;</span> <span class="nt">/&gt;</span></div><div class='line' id='LC11'>		{% for post in site.posts limit:10 %}</div><div class='line' id='LC12'>			<span class="nt">&lt;item&gt;</span></div><div class='line' id='LC13'>				<span class="nt">&lt;title&gt;</span>{{ post.title }}<span class="nt">&lt;/title&gt;</span></div><div class='line' id='LC14'>				<span class="nt">&lt;description&gt;</span>{{ post.content | xml_escape }}<span class="nt">&lt;/description&gt;</span></div><div class='line' id='LC15'>				<span class="nt">&lt;pubDate&gt;</span>{{ post.date | date: &quot;%a, %d %b %Y %H:%M:%S %z&quot; }}<span class="nt">&lt;/pubDate&gt;</span></div><div class='line' id='LC16'>				<span class="nt">&lt;link&gt;</span>{{ site.url }}{{ post.url }}<span class="nt">&lt;/link&gt;</span></div><div class='line' id='LC17'>				<span class="nt">&lt;guid</span> <span class="na">isPermaLink=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;</span>{{ site.url }}{{ post.url }}<span class="nt">&lt;/guid&gt;</span></div><div class='line' id='LC18'>			<span class="nt">&lt;/item&gt;</span></div><div class='line' id='LC19'>		{% endfor %}</div><div class='line' id='LC20'>	<span class="nt">&lt;/channel&gt;</span></div><div class='line' id='LC21'><span class="nt">&lt;/rss&gt;</span></div></pre></div>
+                  <div class="highlight"><pre><div class='line' id='LC1'>---</div><div class='line' id='LC2'>layout: none</div><div class='line' id='LC3'>---</div><div class='line' id='LC4'><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span></div><div class='line' id='LC5'><span class="nt">&lt;rss</span> <span class="na">version=</span><span class="s">&quot;2.0&quot;</span> <span class="na">xmlns:atom=</span><span class="s">&quot;http://www.w3.org/2005/Atom&quot;</span><span class="nt">&gt;</span></div><div class='line' id='LC6'>	<span class="nt">&lt;channel&gt;</span></div><div class='line' id='LC7'>		<span class="nt">&lt;title&gt;</span>{{ site.name }} - Miscellaneous<span class="nt">&lt;/title&gt;</span></div><div class='line' id='LC8'>		<span class="nt">&lt;description&gt;</span>Posts categorized as &#39;miscellaneous&#39;<span class="nt">&lt;/description&gt;</span></div><div class='line' id='LC9'>		<span class="nt">&lt;link&gt;</span>{{ site.url }}<span class="nt">&lt;/link&gt;</span></div><div class='line' id='LC10'>		<span class="nt">&lt;atom:link</span> <span class="na">href=</span><span class="s">&quot;{{ site.url }}/feed.category.xml&quot;</span> <span class="na">rel=</span><span class="s">&quot;self&quot;</span> <span class="na">type=</span><span class="s">&quot;application/rss+xml&quot;</span> <span class="nt">/&gt;</span></div><div class='line' id='LC11'>		{% for post in site.categories.miscellaneous limit:10 %}</div><div class='line' id='LC12'>			<span class="nt">&lt;item&gt;</span></div><div class='line' id='LC13'>				<span class="nt">&lt;title&gt;</span>{{ post.title }}<span class="nt">&lt;/title&gt;</span></div><div class='line' id='LC14'>				<span class="nt">&lt;description&gt;</span>{{ post.content | xml_escape }}<span class="nt">&lt;/description&gt;</span></div><div class='line' id='LC15'>				<span class="nt">&lt;pubDate&gt;</span>{{ post.date | date: &quot;%a, %d %b %Y %H:%M:%S %z&quot; }}<span class="nt">&lt;/pubDate&gt;</span></div><div class='line' id='LC16'>				<span class="nt">&lt;link&gt;</span>{{ site.url }}{{ post.url }}<span class="nt">&lt;/link&gt;</span></div><div class='line' id='LC17'>				<span class="nt">&lt;guid</span> <span class="na">isPermaLink=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;</span>{{ site.url }}{{ post.url }}<span class="nt">&lt;/guid&gt;</span></div><div class='line' id='LC18'>			<span class="nt">&lt;/item&gt;</span></div><div class='line' id='LC19'>		{% endfor %}</div><div class='line' id='LC20'>	<span class="nt">&lt;/channel&gt;</span></div><div class='line' id='LC21'><span class="nt">&lt;/rss&gt;</span></div></pre></div>
           </td>
         </tr>
       </table>
@@ -496,7 +496,7 @@
 </div>
 
 <div id="js-frame-loading-template" class="frame frame-loading large-loading-area" style="display:none;">
-  <img class="js-frame-loading-spinner" src="https://a248.e.akamai.net/assets.github.com/images/spinners/octocat-spinner-128.gif?1347543527" height="64" width="64">
+  <img class="js-frame-loading-spinner" src="https://a248.e.akamai.net/assets.github.com/images/spinners/octocat-spinner-128.gif?1359524229" height="64" width="64">
 </div>
 
 
@@ -557,7 +557,7 @@
       <hr class="footer-divider">
 
 
-    <p class="right">&copy; 2013 <span title="0.08714s from fe16.rs.github.com">GitHub</span> Inc. All rights reserved.</p>
+    <p class="right">&copy; 2013 <span title="0.06944s from fe15.rs.github.com">GitHub</span> Inc. All rights reserved.</p>
     <a class="left" href="https://github.com/">
       <span class="mega-icon mega-icon-invertocat"></span>
     </a>
@@ -604,7 +604,7 @@
 
     
     
-    <span id='server_response_time' data-time='0.08772' data-host='fe16'></span>
+    <span id='server_response_time' data-time='0.06990' data-host='fe15'></span>
     
   </body>
 </html>
