@@ -4,7 +4,7 @@
  <title>Digital Oxford</title>
  <link href="http://www.digitaloxford.com/feed/" rel="self"/>
  <link href="http://www.digitaloxford.com/"/>
- <updated>2013-02-13T11:31:08+00:00</updated>
+ <updated>2013-02-13T11:34:09+00:00</updated>
  <id>http://www.digitaloxford.com/</id>
  <author>
    <name>Digital Oxford</name>
@@ -14,7 +14,7 @@
  
  <entry>
    <title>JS Oxford</title>
-   <link href="http://recursive-design.com/2013/02/21/JSOxford-MONTHLY"/>
+   <link href="http://www.digitaloxford.com/2013/02/21/JSOxford-MONTHLY"/>
    <updated>2013-02-21T00:00:00+00:00</updated>
    <id>http://digitaloxford.com/2013/02/21/JSOxford-MONTHLY</id>
    <content type="html">
@@ -23,7 +23,7 @@
  
  <entry>
    <title>John Cole from Adobe - HTML5 and Flash</title>
-   <link href="http://recursive-design.com/2013/02/21/digitalcreatives"/>
+   <link href="http://www.digitaloxford.com/2013/02/21/digitalcreatives"/>
    <updated>2013-02-21T00:00:00+00:00</updated>
    <id>http://digitaloxford.com/2013/02/21/digitalcreatives</id>
    <content type="html">
@@ -32,7 +32,7 @@
  
  <entry>
    <title>Oxford Inspires</title>
-   <link href="http://recursive-design.com/2013/03/02/Oxford-Inspires"/>
+   <link href="http://www.digitaloxford.com/2013/03/02/Oxford-Inspires"/>
    <updated>2013-03-02T00:00:00+00:00</updated>
    <id>http://digitaloxford.com/2013/03/02/Oxford-Inspires</id>
    <content type="html">
@@ -41,7 +41,7 @@
  
  <entry>
    <title>Oxford Drupal User Group</title>
-   <link href="http://recursive-design.com/2013/03/06/oxdrupal-MONTHLY"/>
+   <link href="http://www.digitaloxford.com/2013/03/06/oxdrupal-MONTHLY"/>
    <updated>2013-03-06T00:00:00+00:00</updated>
    <id>http://digitaloxford.com/2013/03/06/oxdrupal-MONTHLY</id>
    <content type="html">
@@ -50,7 +50,7 @@
  
  <entry>
    <title>Oxford Geek Nights</title>
-   <link href="http://recursive-design.com/2013/03/13/OGN"/>
+   <link href="http://www.digitaloxford.com/2013/03/13/OGN"/>
    <updated>2013-03-13T00:00:00+00:00</updated>
    <id>http://digitaloxford.com/2013/03/13/OGN</id>
    <content type="html">
@@ -59,7 +59,7 @@
  
  <entry>
    <title>UX Oxford</title>
-   <link href="http://recursive-design.com/2013/03/14/UXOxford-MONTHLY"/>
+   <link href="http://www.digitaloxford.com/2013/03/14/UXOxford-MONTHLY"/>
    <updated>2013-03-14T00:00:00+00:00</updated>
    <id>http://digitaloxford.com/2013/03/14/UXOxford-MONTHLY</id>
    <content type="html">
@@ -68,7 +68,7 @@
  
  <entry>
    <title>jQuery UK 2013</title>
-   <link href="http://recursive-design.com/2013/04/19/jqueryconf"/>
+   <link href="http://www.digitaloxford.com/2013/04/19/jqueryconf"/>
    <updated>2013-04-19T00:00:00+01:00</updated>
    <id>http://digitaloxford.com/2013/04/19/jqueryconf</id>
    <content type="html">
