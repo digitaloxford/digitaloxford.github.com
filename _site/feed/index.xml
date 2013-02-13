@@ -4,7 +4,7 @@
  <title>Digital Oxford</title>
  <link href="http://www.digitaloxford.com/feed/" rel="self"/>
  <link href="http://www.digitaloxford.com/"/>
- <updated>2013-02-13T11:34:09+00:00</updated>
+ <updated>2013-02-13T11:42:03+00:00</updated>
  <id>http://www.digitaloxford.com/</id>
  <author>
    <name>Digital Oxford</name>
@@ -16,7 +16,7 @@
    <title>JS Oxford</title>
    <link href="http://www.digitaloxford.com/2013/02/21/JSOxford-MONTHLY"/>
    <updated>2013-02-21T00:00:00+00:00</updated>
-   <id>http://digitaloxford.com/2013/02/21/JSOxford-MONTHLY</id>
+   <id>http://digitaloxford.com</id>
    <content type="html">
 </content>
  </entry>
@@ -25,7 +25,7 @@
    <title>John Cole from Adobe - HTML5 and Flash</title>
    <link href="http://www.digitaloxford.com/2013/02/21/digitalcreatives"/>
    <updated>2013-02-21T00:00:00+00:00</updated>
-   <id>http://digitaloxford.com/2013/02/21/digitalcreatives</id>
+   <id>http://digitaloxford.com</id>
    <content type="html">
 </content>
  </entry>
@@ -34,7 +34,7 @@
    <title>Oxford Inspires</title>
    <link href="http://www.digitaloxford.com/2013/03/02/Oxford-Inspires"/>
    <updated>2013-03-02T00:00:00+00:00</updated>
-   <id>http://digitaloxford.com/2013/03/02/Oxford-Inspires</id>
+   <id>http://digitaloxford.com</id>
    <content type="html">
 </content>
  </entry>
@@ -43,7 +43,7 @@
    <title>Oxford Drupal User Group</title>
    <link href="http://www.digitaloxford.com/2013/03/06/oxdrupal-MONTHLY"/>
    <updated>2013-03-06T00:00:00+00:00</updated>
-   <id>http://digitaloxford.com/2013/03/06/oxdrupal-MONTHLY</id>
+   <id>http://digitaloxford.com</id>
    <content type="html">
 </content>
  </entry>
@@ -52,7 +52,7 @@
    <title>Oxford Geek Nights</title>
    <link href="http://www.digitaloxford.com/2013/03/13/OGN"/>
    <updated>2013-03-13T00:00:00+00:00</updated>
-   <id>http://digitaloxford.com/2013/03/13/OGN</id>
+   <id>http://digitaloxford.com</id>
    <content type="html">
 </content>
  </entry>
@@ -61,7 +61,7 @@
    <title>UX Oxford</title>
    <link href="http://www.digitaloxford.com/2013/03/14/UXOxford-MONTHLY"/>
    <updated>2013-03-14T00:00:00+00:00</updated>
-   <id>http://digitaloxford.com/2013/03/14/UXOxford-MONTHLY</id>
+   <id>http://digitaloxford.com</id>
    <content type="html">
 </content>
  </entry>
@@ -70,7 +70,7 @@
    <title>jQuery UK 2013</title>
    <link href="http://www.digitaloxford.com/2013/04/19/jqueryconf"/>
    <updated>2013-04-19T00:00:00+01:00</updated>
-   <id>http://digitaloxford.com/2013/04/19/jqueryconf</id>
+   <id>http://digitaloxford.com</id>
    <content type="html">
 </content>
  </entry>

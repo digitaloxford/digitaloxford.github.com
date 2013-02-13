@@ -14,14 +14,13 @@ layout: nil
    <email>info@digitaloxford.com</email>
  </author>
 
- {% for post in site.categories reversed %}
+ {% for post in site.categories.event reversed %}
  <entry>
-  <title>{{ post.title }}</title>
-  <link href="http://www.digitaloxford.com"/>
-  <span>{{ post.date | date: "%d.%m.%Y" }}</span>
-  <span>{{ post.time }}</span>
-  <p>{{ post.detail }}</p>
-  <content type="html">{{ post.content | xml_escape }}</content>
+   <title>{{ post.title }}</title>
+   <link href="http://www.digitaloxford.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://digitaloxford.com</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
  
