@@ -338,7 +338,7 @@ article {
  	text-transform: none;
  	font-size: 1.444444444em;
  	padding-bottom: 0.384615385em;
-	color: #db1313;
+	color: #2196a6;
  }
 
 
@@ -355,7 +355,7 @@ article {
 
   .event .date:after {
  	 content: '  \2022';
- 	 color: #e2adad;
+ 	 color: #7ca6ac;
  }
 
  .event .social a {
