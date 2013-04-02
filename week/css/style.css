@@ -355,7 +355,7 @@ article {
 
   .event .date:after {
  	 content: '  \2022';
- 	 color: #db1313;
+ 	 color: #e2adad;
  }
 
  .event .social a {
