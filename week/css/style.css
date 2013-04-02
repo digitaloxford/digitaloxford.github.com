@@ -122,10 +122,10 @@ header {
 
 header h1 {
 	text-indent: -9999%;
-	height: 169px;
+	height: 236px;
 	width: 200px;
 	background: transparent url(../img/logo.png) top left no-repeat;
-	background-size: 200px 169px; /* TODO RE-RENDER LOGO */
+	background-size: 200px 236px; /* TODO RE-RENDER LOGO */
 	margin: .75em auto 0.5em;
 }
 
