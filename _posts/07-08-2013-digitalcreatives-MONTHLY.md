@@ -3,7 +3,7 @@ layout: post
 
 category: event
 
-title: Create Now event
+title: Create Now
 date: 07.08.2013
 time: 7:15-9:30pm
 link: http://digitalcreativesoxford.com/
