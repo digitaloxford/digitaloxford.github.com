@@ -3,7 +3,7 @@ layout: post
 
 category: job
 
-role: Project Administrator/Account Exec
+role: Project Administrator/ Account Exec
 company: White October
 company_url: http://www.whiteoctober.co.uk
 location: Oxford
