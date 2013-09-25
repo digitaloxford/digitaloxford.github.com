@@ -3,7 +3,7 @@ layout: post
 
 category: job
 
-role: Project Administrator/Account Exec – S&O Team
+role: Project Administrator/Account Exec - S&O Team
 company: White October
 company_url: http://www.whiteoctober.co.uk
 location: Oxford
