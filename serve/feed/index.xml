@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Digital Oxford</title>
+ <link href="http://www.digitaloxford.com/feed/" rel="self"/>
+ <link href="http://www.digitaloxford.com/"/>
+ <updated>2013-11-07T11:48:15+00:00</updated>
+ <id>http://www.digitaloxford.com/</id>
+ <author>
+   <name>Digital Oxford</name>
+   <email>info@digitaloxford.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Transmedia publishing in a Brave New World</title>
+   <link href="http://www.digitaloxford.com/2013/11/20/opus"/>
+   <updated>2013-11-20T00:00:00+00:00</updated>
+   <id>http://digitaloxford.com</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Oxford TiddlyWiki Interest Group</title>
+   <link href="http://www.digitaloxford.com/2013/11/21/tiddlywiki"/>
+   <updated>2013-11-21T00:00:00+00:00</updated>
+   <id>http://digitaloxford.com</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ 
+</feed>
