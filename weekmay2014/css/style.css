@@ -107,7 +107,7 @@ section {
  */
 
 header {
-	background: #000 url(../img/delegatesphotobackground.jpg) center top no-repeat;
+	background: #000 url(../img/photobackground.png) center top no-repeat;
 	-webkit-transition: 1s height ease-out;
 	   -moz-transition: 1s height ease-out;
 	     -o-transition: 1s height ease-out;
