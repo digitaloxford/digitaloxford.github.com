@@ -107,7 +107,7 @@ section {
  */
 
 header {
-	background: #000 url(../img/photobackground.png) center top no-repeat;
+	background: #000 url('../img/photobackground.jpg') center top no-repeat;
 	-webkit-transition: 1s height ease-out;
 	   -moz-transition: 1s height ease-out;
 	     -o-transition: 1s height ease-out;
@@ -124,9 +124,10 @@ header h1 {
 	text-indent: -9999%;
 	height: 236px;
 	width: 200px;
-	background: transparent url(../img/logo-weekoctober2013.png) top left no-repeat;
+	background: transparent url('../img/logo-weekoctober2014.png') top left no-repeat;
 	background-size: 200px 236px; /* TODO RE-RENDER LOGO */
 	margin: .75em auto 0.5em;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo a:link,
