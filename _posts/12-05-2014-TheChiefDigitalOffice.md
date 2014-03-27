@@ -3,8 +3,7 @@ layout: post
 
 category: event
 
-title: Oxford Technology Media & Finance Network
-"The Chief Digital Officer"
+title: Oxford Technology Media & Finance Network "The Chief Digital Officer"
 date: 12.05.2014
 time: 6:00pm - 9:00pm
 link: http://www.otmfn.co.uk/eventspage/
