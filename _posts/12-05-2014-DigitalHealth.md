@@ -3,7 +3,7 @@ layout: post
 
 category: event
 
-title: Digital Health Oxford
+title: Digital Health Oxford - “The Third Age of Healthcare”
 date: 12.05.2014
 time: 7pm
 link: http://www.meetup.com/Digital-Health-Oxford/
