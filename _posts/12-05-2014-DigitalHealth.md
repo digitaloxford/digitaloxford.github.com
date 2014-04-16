@@ -7,6 +7,6 @@ title: Digital Health Oxford
 date: 12.05.2014
 time: 7pm
 link: http://www.meetup.com/Digital-Health-Oxford/
-detail: Digital Health Oxford is a cross-disciplinary and cross-sector group that aims to promote all things related to digital health within Oxford Speaker - Prof Sir Muir Gray
+detail: Please join us for a special lecture by Prof Sir Muir Gray, who will present his vision for the future of digital health in the NHS - what can be improved, how to improve it, and where to aim our resources and attentions.  Followed, as usual, by a drinks reception
 email: info@digitaloxford.co.uk
 ---
