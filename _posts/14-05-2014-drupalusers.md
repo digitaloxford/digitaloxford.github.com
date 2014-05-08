@@ -3,7 +3,7 @@ layout: post
 
 category: event
 
-title: Oxford Drupal User Group
+title: Oxford Drupal User Group "The benefits of meeting the local Drupal community"
 date: 14.05.2014
 time: 7pm - 9:00pm
 link: http://www.eventbrite.co.uk/e/the-benefits-of-meeting-the-local-drupal-community-tickets-11559700375
