@@ -23,7 +23,7 @@ bundle exec jekyll server --watch
 
 1. make sure you have an up to date `ruby` and `bundler` installed on your computer (if you don't know/care what those are, find someone who does - you'll only need to do this once)
 
-2. click `:rocket:.command` - this will open a terminal window running the server, and a web browser pointing at the site.
+2. click ":rocket:.command" - this will open a terminal window running the server, and a web browser pointing at the site.
 
 3. (once you're done) - close the terminal window
 
