@@ -3,7 +3,7 @@ layout: post
 
 category: job
 
-role: Junior Data Scientist
+role: Data Scientist
 company: Rowanalytics
 company_url: http://rowanalytics.com
 location: Witney
