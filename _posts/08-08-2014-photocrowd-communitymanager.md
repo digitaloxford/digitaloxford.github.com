@@ -3,7 +3,7 @@ layout: post
 
 category: job
 
-role:Community Manager
+role: Community Manager
 company: Photocrowd
 company_url: http://www.photocrowd.com
 location: Oxford
