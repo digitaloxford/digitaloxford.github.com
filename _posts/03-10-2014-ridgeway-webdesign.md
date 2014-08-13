@@ -3,12 +3,12 @@ layout: post
 
 category: job
 
-role: Head of UX & Design
-company: Journl Ltd
-company_url: http://www.journl.com
-location: Oxford
-closing_date: 03.09.2014
-link: http://www.journl.com/jobs/head-of-ux-and-design/
-detail: Journl is looking for an amazing Head of UX & Design to lead user experience and design for our ground breaking and unique online consumer product, and help us take it to a global audience.
+role: web design
+company: Ridgeway
+company_url: http://www.ridgeway.net
+location: Witney
+closing_date: 03.10.2014
+link: http://www.ridgeway.net/about/careers-at-ridgeway/web-designer-job-vacancy
+detail: We're looking for a talented web designer to create high quality designs for some great brands within a fast-moving agency. This is a challenging, varied and rewarding design role offering great opportunities for career progression.
 
 ---
