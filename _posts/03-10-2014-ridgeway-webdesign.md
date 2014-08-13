@@ -3,7 +3,7 @@ layout: post
 
 category: job
 
-role: web design
+role: Web Design
 company: Ridgeway
 company_url: http://www.ridgeway.net
 location: Witney
