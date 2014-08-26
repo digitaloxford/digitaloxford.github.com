@@ -3,7 +3,7 @@ layout: post
 
 category: job
 
-role: Front End/Java Developer: Building the Digital Manuscripts Toolkit
+role: Front End/Java Developer - Building the Digital Manuscripts Toolkit
 company: Bodleian Libraries 
 company_url: http://www.bodleian.ox.ac.uk/
 location: Osney Mead
