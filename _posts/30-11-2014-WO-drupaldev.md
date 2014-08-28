@@ -3,12 +3,12 @@ layout: post
 
 category: job
 
-role: Digital Designer
-company: Clearwater Hampers
-company_url: http://www.hamper.com
-location: Didcot
-closing_date: 09.01.2015
-link: http://www.indeed.co.uk/cmp/Clearwater-Hampers/jobs/Digital-Designer-86a293d2d8076e82
-detail: Your main duties will include design, optimisation and to strengthen our existing website, develop and enhance our email campaigns and understand the more technical aspects web development including coding and programming. 
+role: Drupal Developer
+company: White October
+company_url: http://www.whiteoctober.co.uk
+location: Oxford
+closing_date: 30.11.2014
+link: http://www.whiteoctober.co.uk/jobs/drupaldeveloper.html
+detail: Are you a talented Drupal developer, looking for your next challenge? Perhaps you're keen to experience development within an agile team, or looking for opportunities to work on bigger, more interesting projects? 
 
 ---
