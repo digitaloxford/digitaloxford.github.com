@@ -7,6 +7,6 @@ title: Build an Android app in an afternoon
 date: 04.10.2014
 time: 12pm - 3pm
 link: http://www.meetup.com/app-afternoon/events/203069322/
-detail: This is for the PC and Mac users out there. Android apps can be developed on PCs and Macs, so it's free for all. The process is similar to iOS, however there are enough fundament differences between the two so I have decided to run a separate event.
+detail: In this afternoon, I'll go over the basics to getting your first app on the road to developing your first app. It will only take an afternoon (3 hours at most) and you will walk out with your own app and with the knowledge to improve on it independently.
 email: info@digitaloxford.co.uk
 ---
