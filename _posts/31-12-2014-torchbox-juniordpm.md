@@ -4,7 +4,7 @@ layout: post
 category: job
 
 role: Junior Digital Project Manager
-company: White October
+company: Torchbox
 company_url: www.torchbox.com
 location: Charlbury, near Oxford
 closing_date: 31.12.2014
