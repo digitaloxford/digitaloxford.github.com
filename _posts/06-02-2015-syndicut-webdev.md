@@ -3,7 +3,7 @@ layout: post
 
 category: job
 
-role: Digital Project Manager
+role: Web developers
 company: Syndicut
 company_url: http://www.syndicut.com
 location: Oxfordshire
