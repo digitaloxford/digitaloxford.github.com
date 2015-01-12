@@ -4,8 +4,8 @@ layout: post
 category: job
 
 role: Account Manager
-company: www.cubaneigh.com
-company_url: http://home.passle.net/
+company: CubanEight
+company_url: www.cubaneigh.com
 location: Bicester
 closing_date: 28.02.2015
 link: http://cubaneight.com/careers/current-vacancies/
