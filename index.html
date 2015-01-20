@@ -49,44 +49,7 @@ layout: layout
 
 		<section class="jobs listings wrapper" id="jobs">
 			<h2 class="section-title">Jobs</h2>
-
-			<ol class="fourcol clearfix">
-              <!-- If type = job.. - correct data order -->
-              {% for post in site.categories.job reversed %}
-
-              	  {% if forloop.index == 5 %}
-			</ol>
-
-            <ol class="fourcol hidden-post">
-            	  {% endif %}
-
-		    	  <li class="job-type col{% cycle ' first','','', ' last' %}">
-		    	    <div class="job">
-		    		    <h3>
-		    		      <a href="{{ post.link }}">{{ post.role}}</a>
-		    			</h3>
-		    			<span class="company">
-		    			  <a href="{{ post.company_url }}">{{ post.company }}</a>
-		    			</span>
-						<span class="location">{{ post.location }}</span>
-							<p>{{ post.detail }}&hellip;</p>
-							<div class="closingdate">
-								<span class="closing">closing date</span>
-								<span class=" datetime">{{ post.closing_date }}</span>
-							</div>
-						<a href="{{ post.link }}" class="button shadow">More details</a>
-					</div>
-				</li>
-		        {% endfor %}
-		      </ol>
-
-                <div class="submit-link">
-            		<a class="button submit" href="http://digitaloxford.wufoo.com/forms/submit-your-job-advert-to-digital-oxford/">Submit job</a>
-            	</div>
-				<div class="more-link">
-					<a class="button expand" href="#">More jobs</a>
-				</div>
-
+			<p>Digital jobs are now hosted on the new <a href="http://jobs.digitaloxford.com">Digital Oxford jobs board</a>. Take a look at the current opportunities and sign-up</p>.
 		</section>
 
 		<section class="members wrapper clearfix" id="members">
@@ -181,7 +144,7 @@ layout: layout
                     <a class="col" href="http://www.vidanlawnes.com/"><img src="img/vidanlawnes-logo.png" alt="Vidan Lawnes"/></a>
                     <a class="col" href="http://www.zestdigital.com/"><img src="img/zest_logo.png" alt="Zest Digital"/></a>
                 </div>
-                <div class="member-logos fourcol clearfix"> 
+                <div class="member-logos fourcol clearfix">
                     <a class="col" href="http://www.s8.co.uk/"><img src="img/studio8-logo.png" alt="Studio 8"/></a>
                 </div>
 				<div class="more-link become">
