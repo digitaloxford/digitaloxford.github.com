@@ -5,7 +5,7 @@ category: job
 
 role: Account Manager
 company: CubanEight
-company_url: www.cubaneigh.com
+company_url: www.cubaneight.com
 location: Bicester
 closing_date: 28.02.2015
 link: http://cubaneight.com/careers/current-vacancies/

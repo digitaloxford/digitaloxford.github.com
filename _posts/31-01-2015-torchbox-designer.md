@@ -13,11 +13,3 @@ detail: We're looking for a Junior/Middleweight Digital Designer to join our gro
 ---
 
 
-
-Managed migration of support handling from Unfudddle to JIRA
-Introduced Kanban processes to support team
-
-we discussed the symfony2 roadmap
-and drupal versions
-iOS and android
-and….
